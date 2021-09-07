@@ -1,0 +1,2 @@
+# diagnosztikai_celu_orvosi_kepalkotas
+képalkotás
