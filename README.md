@@ -111,3 +111,86 @@ Kiszámolod az adott térrész sugárggyengítési értékét és azt hozzárend
 - lineáris tomográfia - ez a tomográfia legalapvetőbb formája
 - poli tomográfia - geometriks mozgásokkal képalkotás
 - zonográfia - ez a lineáris tomográfia változata
+
+A tomogramm egy sugárgyengítési együtthatóval csinál egy képet, a sok képből létrehoz egy 3D objektumot szeletenként.
+
+A 3D képhez minden 2D képen keresünk közös beazonosítható közös pontot, hogy térbeli koordinátát nyerjünk.
+
+Röntgennél a röntgencsőből a sugárkapunk lépnek kia a sugarak ahol tudjuk változtatni a sugár irányát és nagyságát.
+- szcintillációs: a detektor ért sugarak felvillanásokat okoznak a fotodetektorral ezt érzékelik. Jellemzői a mechanikai stabilitás, kis méret, alacsony tápfeszültség, modulárisan cserélhető.
+- ionizációs detektorok:
+  - nemesgáz töltés esetén az ionizált gáz áramot gerjeszt és a keletkező jelenséget rögzíthetjük.
+
+alkotó részei:
+- adatgyűjtő rendszer: analóg jeleket jelerősítéssel mintavételt alkalmazok
+- páciens asztal: stabil és ~1mm pontosságú
+- nagyfeszültségű generátor: 12-140 kV, 80-400mA, 50-60kW háromfázisú
+- vezérlőpult
+- számítógép ami menti az adatokat és összeállíŧja a képet
+
+### Röntgen vs CT
+| röntgen        | CT           |
+| ------------- |:-------------:|
+|       | jobb térbeli felbontás, lényegesne jobb kontrastfelbontás |
+|       |       |
+|  |       |
+
+Képminőség:
+- fantomokkal mérhető, hogy jól van-e bekalibrálva, térbeli speciális fantommal mérik
+- vonalpár/cm
+- függ:
+  -  a detektor méretétpt
+  - a páciens méretétől, mert változik a fókuszpont
+
+#### CT generációk
+![egyben](https://www.researchgate.net/profile/Emanuele-Mikhaeil/publication/343193759/figure/fig1/AS:916910753476608@1595619967129/Generations-of-CT-scanners-6.png)
+
+>**1. gen CT***
+>
+> csak két párhuzamos röntgen detektor, végigszkennelte, arrépp ment
+> 
+> ![1st gen ct](https://radiologykey.com/wp-content/uploads/2016/02/B9780323069748100165_f16-03ad-9780323069748.jpg)
+
+> **2. gen CT**
+> 
+> 30 detektor, 600 sugár x 540 négyzet, 18 szelet
+
+> **3. gen CT**
+>
+> - több mint 800 detektor, tlejes testes besugárzás, forog a test körül a fej.
+> - röntgencső és detektor mechanikailag egybefüggő egység
+> => egy rossz pixel egy teljes kört alkot a kész képen amit eliminálni kell
+> - a sugárforrás és a adetektorok is forognak
+> 
+> ![3th gen ct](https://lh3.googleusercontent.com/proxy/TUNuTmgeiySQUj4_OQK64aJXPdHNMbkaMhRKADiGGXIOPzRJgdxgus_DFxhLOoOQaNdAaWC4cvH25SWoyJeTQiYtrHbGX7LHpQw)
+
+> **4. gen CT**
+> 
+> - gyűrű műtermékek eliminálása => nem egy kört okoz egy rossz pixel hanem 1 pontot
+> - 4800 detektor
+> - csak a sugárforrás forog, detektorokkal rajtuk körbe
+>
+> ![4th gen ct](https://lh3.googleusercontent.com/proxy/XSv3qbU6x72V0jlg8jWM5h_rv5pgvGpXUxgRAwW8N1udq2hOUppdknvW5WQKQn2tbwTCQ7yJNdJ3oz2qEvDY3bDgkB1HG9LsjSo)
+
+## CTA (computed tomography angiography)
+CT amivel ereket figylenek meg.
+- kontraszt anyagos CT
+
+Sugárterhelése (mSv-ben):
+- CT koponya - 3.8
+- vese - 4.6
+- vastagbél - 7.4
+- CT egésztest - 8.2
+A Föld népessége  átlagosan évente 2,4 mSV sugárterhelést kap
+
+# MRI
+Hidrogén protonokat egy irányba állítunk amiket ha bárhol megváltoztatunk akkor az feltűnő lesz, ezt egy sugárral és egy rf antennával érzékelhetem
+- homogén mágneses tér
+- alagút típusúba betesszük a mukit vagy félig nyitottnál nem olyan jó a képmínőség. Alagútasnál 1; 1,5; 3; 7 teslásat is előállíthatunk.
+
+![mri szerkezet](https://mersz.hu/mod/object.php?objazonosito=m538it_541_i1_idx)
+![mri szerkezete 2](https://cms.sulinet.hu/get/d/45d45d68-1d9c-4e3f-ab81-6c3715093917/1/1/b/Normal/normal.png)
+
+![mri struct](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1G0xq7rXmsuFvTqW8tQ5Pjtdun1y9x8_OOQ&usqp=CAU)
+
+
