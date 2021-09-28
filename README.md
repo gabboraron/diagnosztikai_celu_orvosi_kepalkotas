@@ -184,6 +184,8 @@ Sugárterhelése (mSv-ben):
 A Föld népessége  átlagosan évente 2,4 mSV sugárterhelést kap
 
 # MRI
+> http://mriquestions.com/index.html
+
 Hidrogén protonokat egy irányba állítunk amiket ha bárhol megváltoztatunk akkor az feltűnő lesz, ezt egy sugárral és egy rf antennával érzékelhetem
 - homogén mágneses tér
 - alagút típusúba betesszük a mukit vagy félig nyitottnál nem olyan jó a képmínőség. Alagútasnál 1; 1,5; 3; 7 teslásat is előállíthatunk.
@@ -192,5 +194,31 @@ Hidrogén protonokat egy irányba állítunk amiket ha bárhol megváltoztatunk 
 ![mri szerkezete 2](https://cms.sulinet.hu/get/d/45d45d68-1d9c-4e3f-ab81-6c3715093917/1/1/b/Normal/normal.png)
 
 ![mri struct](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1G0xq7rXmsuFvTqW8tQ5Pjtdun1y9x8_OOQ&usqp=CAU)
+
+[YouTube K-Space: A way to understand how MRI parameters affect images](https://www.youtube.com/watch?v=QHtZR0mtB80)
+
+- Diffúziós MRI ami valaminek a folyamatát tudja monitorizálni. 
+- [Tractographya](http://trackvis.org/) valaminek az útvonalait adja vissza.
+
+## fMRI
+A kifejezetten agyra kitalált kontrasztos MRI.
+
+## DWI
+> Kiemeli azon részét az MRI-nek ahol nem jó a nedvesség.
+
+## Hyperfine
+mobil MRI készülék https://hyperfine.io/
+
+# PET
+> Pozitron emisszós tomográfia
+>
+> Egy sugárzó anyagot adunk be amit mérünk és a mérések alapján készítünk képet, ezzel folyamatokat lehet monitorizálni, keringési problémát, agyi, vagy daganatos jelenségeket figyelünk.
+> 
+> ~ 11mSv egység
+
+
+
+
+
 
 
