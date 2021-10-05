@@ -145,6 +145,8 @@ Képminőség:
 #### CT generációk
 ![egyben](https://www.researchgate.net/profile/Emanuele-Mikhaeil/publication/343193759/figure/fig1/AS:916910753476608@1595619967129/Generations-of-CT-scanners-6.png)
 
+> minőségi vizsonyokról ad visszacsatolást
+
 >**1. gen CT***
 >
 > csak két párhuzamos röntgen detektor, végigszkennelte, arrépp ment
@@ -212,13 +214,44 @@ mobil MRI készülék https://hyperfine.io/
 # PET
 > Pozitron emisszós tomográfia
 >
+> Mennyiségi viszonyokat ad meg, mennyi van az adott szövetből.
+>
 > Egy sugárzó anyagot adunk be amit mérünk és a mérések alapján készítünk képet, ezzel folyamatokat lehet monitorizálni, keringési problémát, agyi, vagy daganatos jelenségeket figyelünk.
 > 
 > ~ 11mSv egység
+> 
+> Ha az alanyt egy csőszeletben helyezzük el akkor a mérés közben a a kilövelő beta részécskéket egy szenzoron érzékeljük, amikor beérkezett megnézzük, hogy az átelmmeben levő oldalon az átmérő fénysebeségel való átfutási idejével megegyező időn belül lesz-e becsapódás, ha lesz akkor tudunk képet készíteni, 2D szeletben.
+>
+> ![](https://www.researchgate.net/publication/337325700/figure/fig1/AS:826576459530243@1574082593894/The-basic-principle-of-a-positron-emission-tomography-PET-system-A-PET-detector-ring.png)![](https://www.researchgate.net/publication/342053802/figure/fig1/AS:902008584294400@1592067013365/Positron-Emission-Tomography-PET-imaging-a-neutron-deficient-radioisotope-positron.png)
+>
+> - carbon11
+> - nitrogén 13
+> - oxigén
+> - fluór 18
+> - rubidum 82
+>
+> ezért egyértellműen időkritikus a vizsgálat.
+> 
+> ![](https://image.slidesharecdn.com/earlyadwebinarlandau-121130144021-phpapp02/95/early-alzheimers-disease-webinarlandau-7-638.jpg?cb=1354286480)
+> 
+> SUV - szöveti uni
+> 
+> SPECT - single photoemission PET  
+> 
+> ![](http://www.eventideib.polimi.it/wp-content/uploads/2019/05/PastedGraphic-1-730x410.png)![](https://ars.els-cdn.com/content/image/1-s2.0-S1120179715010492-ejmp619-fig-0001.jpg)
 
 
-
-
-
-
+# OCT
+> fény alapú koherens tomográfia
+> 
+> Michlson féle interfenercia mérő az interfeernciát méri, egy visszaveréssel tud dolgozni ami alapján távolságokat lehet látni
+>
+> SLED/LED - 800--1300-1550 nm hullámhosszal
+> 
+> 5-10-30 fpses feptosecundumos laser
+> 
+> 4-5mm mélyen mérhető a szövet
+>
+> 
+> 
 
