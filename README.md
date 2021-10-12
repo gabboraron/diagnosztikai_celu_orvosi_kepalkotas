@@ -242,6 +242,12 @@ mobil MRI készülék https://hyperfine.io/
 
 
 # OCT
+![OCT VS MRI VS CT](http://obel.ee.uwa.edu.au/wp-content/uploads/2015/01/Fig_3_OCTcomparison.png)
+használt:
+- bőrgyógyászatban
+- megtudom mondani melyik irányban áramlik a vér
+- 
+
 > fény alapú koherens tomográfia
 > 
 > Michlson féle interfenercia mérő az interfeernciát méri, egy visszaveréssel tud dolgozni ami alapján távolságokat lehet látni
@@ -252,6 +258,35 @@ mobil MRI készülék https://hyperfine.io/
 > 
 > 4-5mm mélyen mérhető a szövet
 >
-> 
-> 
+> - erő és távolság mérésre is használható, az üveg (*amiben megy a jel*) törési mutatójának segíŧségével
+> - amikor a szemben a nyomás lecsökken beomlik a retina és részleges vaksáág áll elő
+>   - ekkor egy trombózis állhat elő ami a szem hajszálér hálózatában áll elő, és az azt övező rész elhal
+>     - ez vérhígitóval enyhíthető, 15 - 20 um
 
+## Time domain OCT
+> - monochrome fényt használ
+> - 2 eszköz van, egy referencia tükör, amit piezoval rezegetek, másik oldalon az intrfeernciát nézem.
+> - ezzel az adott szövet visszaverési képességeit nézhetem, amit így um pontossággal mérhetek rétegenként
+> ![OCT](https://marvel-b1-cdn.bc0a.com/f00000000038905/www.aao.org/full/image.axd?id=d176ad37-e1c1-4090-a7be-fc863dc43756&t=636737514114430000)
+> 
+> A visszaverődés minden rétegből egy-egy jelet küld vissza, aminek a végén egy summát kapok. A referencia tükör mozgatható, és olyan távolságba tesszük amivel pont azt a hullámhosszt kapjuk meg amelyik az általunk visgált mértékből érkezik. A piezo ciklikus rezgéséből egy időrés keletkezik amiben mozgatjuk a tükröt és ebből fakad az idő alapúsága az eljárásnak.
+>
+> ***A scan***
+> - *x* tengely távolság
+> - *y* tengely optikai denzitás
+> - oszcilloszcopeon látszik
+> 
+> ***B scan***
+> - távolság alapján mondható meg a pixel intenzitása
+>  
+> http://obel.ee.uwa.edu.au/research/fundamentals/introduction-oct/
+> ![TOCT](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/OCT_B-Scan_Setup.GIF/545px-OCT_B-Scan_Setup.GIF)![](http://obel.ee.uwa.edu.au/wp-content/uploads/2015/01/Fig_1_TDOCT.png)
+
+## Multi spectrum OCT
+> - több fénynyalábot használ
+> - a különböző spektrumokat furier transzformációcal szétbontják, így az egyes mélységek denzitásai megmondhatóak
+> - itt nincs rezgő tükör, többféle hullámhosszt ad ki a fényforrásom.
+> - itt 1024-es A-scant használok.
+> ![](http://obel.ee.uwa.edu.au/wp-content/uploads/2015/01/Fig_2_SDOCT.png)![](https://www.researchgate.net/profile/Pengfei-Zhang-17/publication/281790160/figure/fig1/AS:795469957582848@1566666225195/Multispectral-SLO-OCT-system-schematic-BS-Beam-Splitter-DM-Dichroic-Mirror-DC.png) ![](https://www.bmo.uni-luebeck.de/fileadmin/_processed_/3/e/csm_Forschung_OCT_Multi_00_277d1b3b5a.png)
+> 
+> 
