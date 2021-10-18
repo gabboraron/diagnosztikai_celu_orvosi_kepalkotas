@@ -64,19 +64,19 @@ digitális képen:
 
 beadndóhoz:
 
-https://docplayer.net/amp/208626422-Context-recognition-by-wireless-sensing-a-comprehensive-survey.html
-
-https://sci-hub.se/https://doi.org/10.1145/3328918
-
-https://news.ncsu.edu/2019/08/wifi-to-track-indoor-odometry/
+- https://docplayer.net/amp/208626422-Context-recognition-by-wireless-sensing-a-comprehensive-survey.html
+- https://sci-hub.se/https://doi.org/10.1145/3328918
+- https://news.ncsu.edu/2019/08/wifi-to-track-indoor-odometry/
 
 ## EA-GY2
 ### Röntgen (Rtg)
 Már a polgárháborúban is használták.
 
+[NIBIB gov - How Do X-rays Work? ](https://www.youtube.com/watch?v=hTz_rGP4v9Y)
+
 ![röntgen spektrumok](https://www.biolegend.com/Files/Images/BioLegend/blog/100814blog/Spectrum.png)
 
-egy sugaarat kilövünk és azt mérjük, hogy hogyan csapódik be az atomokba és ott hogy törik meg, milyen "árnyékot" ad, a külféle spektrumokat könfélre finomságon használjuk.
+egy sugarat kilövünk és azt mérjük, hogy hogyan csapódik be az atomokba és ott hogy törik meg, milyen "árnyékot" ad, a külféle spektrumokat könfélre finomságon használjuk.
 
 Két vezetéket használvva ha az egyikbe nagy feszültséget kötünk akkor átvándorol a másikra, így mikor ezt bekapcsolva hagyta Röntgen, és azt próbálva jutott arra, hogy az anyagoknak van sugárzási együtthatója.
 
@@ -84,16 +84,27 @@ A `kilépő sugárintenzitás = belépő sugárzás * anyag sugárzási együtth
 
 [How does an X-ray Tube Work (Radiation Protection)](http://www.youtube.com/watch?v=Bc0eOjWkxpU)
 
-A kollimátor használatótól függően meg tudjuk változtatni a sugárnyaláb méretét és kiterjedését is (tipikus röntgen szögek anód esetén)[https://www.mta-r.de/site/assets/files/9355/fig_5_6.png]
+A kollimátor használatótól függően meg tudjuk változtatni a sugárnyaláb méretét és kiterjedését is ![tipikus röntgen szögek anód esetén](https://www.mta-r.de/site/assets/files/9355/fig_5_6.png)
 
-Ahol van szövet ott kisebb intenzitással megy át, ahol nincs ott nagyal.
+Ahol van szövet ott kisebb intenzitással megy át, ahol nincs ott nagyobbal.
 
 ![the five main daiodensities ona standard radiograph](https://veteriankey.com/wp-content/uploads/2016/05/B9781455703647000053_f005-002-9781455703647.jpg)
 
 Az infra fény áthatol a szöveten.
 
+**felhasználása:**
+- Mammography
+- X-ray radiography
+- Fluoroscopy (kontrasztos)
+- Radiation therapy in cancer treatment
+
+> Egy röntgencső a legegyszerűbb kivitelnél egy katódból és egy anódból áll, amik egy üvegburában vannak légmentesen lezárva.
+
 ## Computer tomográfia (CT)
-- röntgen
+http://www.impactscan.org/#ctdose
+> gyakorlatilag röntgen
+
+**használható:**
 - MRI-vel
 - PET-tel
 
@@ -116,12 +127,12 @@ A tomogramm egy sugárgyengítési együtthatóval csinál egy képet, a sok ké
 
 A 3D képhez minden 2D képen keresünk közös beazonosítható közös pontot, hogy térbeli koordinátát nyerjünk.
 
-Röntgennél a röntgencsőből a sugárkapunk lépnek kia a sugarak ahol tudjuk változtatni a sugár irányát és nagyságát.
-- szcintillációs: a detektor ért sugarak felvillanásokat okoznak a fotodetektorral ezt érzékelik. Jellemzői a mechanikai stabilitás, kis méret, alacsony tápfeszültség, modulárisan cserélhető.
+Röntgennél a röntgencsőből a sugárkapunk lépnek ki a sugarak ahol tudjuk változtatni a sugár irányát és nagyságát.
+- oszcintillációs: a detektor ért sugarak felvillanásokat okoznak a fotodetektorral ezt érzékelik. Jellemzői a mechanikai stabilitás, kis méret, alacsony tápfeszültség, modulárisan cserélhető.
 - ionizációs detektorok:
   - nemesgáz töltés esetén az ionizált gáz áramot gerjeszt és a keletkező jelenséget rögzíthetjük.
 
-alkotó részei:
+**alkotó részei:**
 - adatgyűjtő rendszer: analóg jeleket jelerősítéssel mintavételt alkalmazok
 - páciens asztal: stabil és ~1mm pontosságú
 - nagyfeszültségű generátor: 12-140 kV, 80-400mA, 50-60kW háromfázisú
@@ -131,9 +142,8 @@ alkotó részei:
 ### Röntgen vs CT
 | röntgen        | CT           |
 | ------------- |:-------------:|
-|       | jobb térbeli felbontás, lényegesne jobb kontrastfelbontás |
-|       |       |
-|  |       |
+|       | rosszabb térbeli felbontás, lényegesen jobb kontrasztfelbontás |
+
 
 Képminőség:
 - fantomokkal mérhető, hogy jól van-e bekalibrálva, térbeli speciális fantommal mérik
@@ -164,7 +174,7 @@ Képminőség:
 > => egy rossz pixel egy teljes kört alkot a kész képen amit eliminálni kell
 > - a sugárforrás és a adetektorok is forognak
 > 
-> ![3th gen ct](https://lh3.googleusercontent.com/proxy/TUNuTmgeiySQUj4_OQK64aJXPdHNMbkaMhRKADiGGXIOPzRJgdxgus_DFxhLOoOQaNdAaWC4cvH25SWoyJeTQiYtrHbGX7LHpQw)
+> ![3th gen ct](http://www.impactscan.org/slides/impactcourse/basic_principles_of_ct/img26.gif)
 
 > **4. gen CT**
 > 
@@ -172,7 +182,7 @@ Képminőség:
 > - 4800 detektor
 > - csak a sugárforrás forog, detektorokkal rajtuk körbe
 >
-> ![4th gen ct](https://lh3.googleusercontent.com/proxy/XSv3qbU6x72V0jlg8jWM5h_rv5pgvGpXUxgRAwW8N1udq2hOUppdknvW5WQKQn2tbwTCQ7yJNdJ3oz2qEvDY3bDgkB1HG9LsjSo)
+> ![4th gen ct](http://www.impactscan.org/slides/impactcourse/basic_principles_of_ct/img27.gif)
 
 ## CTA (computed tomography angiography)
 CT amivel ereket figylenek meg.
@@ -201,6 +211,18 @@ Hidrogén protonokat egy irányba állítunk amiket ha bárhol megváltoztatunk 
 
 - Diffúziós MRI ami valaminek a folyamatát tudja monitorizálni. 
 - [Tractographya](http://trackvis.org/) valaminek az útvonalait adja vissza.
+
+> Nagy mágnesességű (tesla nagyság) párhuzamos elektormágnes tekercsekkel létrehozunk egy elektromágneses mezőt, ahol a szövetben levő hidrogén atomok protonjait egy irányba rendezzük (hidrogén mag polarizálása) homogén mágneses mező létrehozásával. Ugyanis a protonok mágneses térben képesek elektromágneses energiát befogadni és kiadni ellenben nyugalmi állapotban a protonok mágneses tulajdonsága véletlen eloszlású.
+> 
+> E mellett egy gyengébb, időben változó (1 kHz nagyságrendű), téri kódoláshoz szükséges, ún. gradiens mezőt is létrehozunk. E mellett egy gyenge rádiófrekvenciás (RF) mező, mely egy RF antennán keresztül összegyűjthető, mérhető jelek produkálását lehetővé tevő manipulációjára képes a hidrogénmagoknak. Ezek a mágneses térre merőletges jelek, melyek kitérítik a protonokat. A gerjesztés után (adott Hz H:64) mérhetőek a kitérés (elektromágneses energia leadásának) komponensei
+>
+> A három gradiens tekercs a főbb irányok felé van állítva, így létrejön a térbeli lefedettség.
+> 
+> - A mágneses tér erőssége nagyban meghatározza a kinyerhető jel erősségét
+> - Rádióhullámok segítségével közlünk energiát, és a kapott „visszhangot” rögzítjük
+>
+> Ezeket az adatokat vizualizálhatjuk valós vagy imaginárius értékek mentén, de fázis vagy amplitúdó alapján is lehet. Ugyanakkor a gyakorlatban ezen a ponton Fourier transzformálunk, hogy a frekvenciát elemezzük. Ezt terjeszthetjük ki 2D-be, úgy, hogy a jeleket egymás mellé téve értelmezzük, és így kapunk egy 2D szeletet. Ezt kibővítjük 3D-re tomográfiával, azaz egymás mellé tesszük a szeleket.
+
 
 ## fMRI
 A kifejezetten agyra kitalált kontrasztos MRI.
