@@ -310,5 +310,40 @@ használt:
 > - itt nincs rezgő tükör, többféle hullámhosszt ad ki a fényforrásom.
 > - itt 1024-es A-scant használok.
 > ![](http://obel.ee.uwa.edu.au/wp-content/uploads/2015/01/Fig_2_SDOCT.png)![](https://www.researchgate.net/profile/Pengfei-Zhang-17/publication/281790160/figure/fig1/AS:795469957582848@1566666225195/Multispectral-SLO-OCT-system-schematic-BS-Beam-Splitter-DM-Dichroic-Mirror-DC.png) ![](https://www.bmo.uni-luebeck.de/fileadmin/_processed_/3/e/csm_Forschung_OCT_Multi_00_277d1b3b5a.png)
-> 
-> 
+
+# ultrahang
+- a hang sebessége függ az adott közeg összetételétől
+- a beadott energia visszaverődését mérjük
+- kvantitatív és kvalitatív szerv morfológiát lehet vele nézni;
+- nem invazív
+- nincs káros biológiai hatása
+- a szövet áteresztőkpességén / törésmutatóján múlik az ltrahang működőképessége, ez levegeőben rossz, ezért pl tüdőt/csontot nem lehet
+- a képben keletkező levegőbuborékok a műtermékek
+- külöünféle ultrahang vizsgálatnál különféle fejekkel különböző mélységig vizsgálni a szövetben, így egy tárgy-transducer távolság kétszeresét nézzzük
+
+![](http://www.sprawls.org/ppmi2/USPRO/usimage2.JPG)
+
+A hagnhullámnál mini terjedések kezdenek kialakulni.
+mindezt egy piezoelektomos jellel tudom megtenni.
+
+Az oszcilloszkópon megjelenik a visszajövő jel az A scan
+
+A térrész minden eleméhez rendelek egy értéket és attól függően mikor ér vissza onnan a jel adok hozzá színt 0-255 tartományon. a legmesszebbi a legsötétebb a legközelebbi a fehér. Ez a **B mód**.
+
+Ha több B módú scant öszetsszük kapjuk az Mmódút.
+
+Dopler hatáson alapszik, így akár folyamatokat is láthatunk, hogy merre folyik a vér.
+- ha kiküldök egy frekvenciát és a visszapattanó nagyobb akkor jön fleém
+- ha a visszapattanó kisebb akkor megy elfele
+
+https://piurimaging.com/
+
+- felsíni, textúra mód
+- elmosott mód
+- megvilágított mód
+- maximum/minmum mód
+- x-ray mód
+
+használata:
+- daganatok pontos volumen mérse, stb
+- transrectális, transvaginalis ultrahang
