@@ -2,7 +2,20 @@
 
 >
 > ***Államvizsgás tárgy!***
->
+> ## ZV tételek a tárgyból:
+> - Röntgen
+> - CT
+> - OCT
+> - MRI
+> - PET
+> - spektroszkopia
+> - CTI
+> - NIRS
+> - UH
+> - kép ábrázolás
+> - nagyfelbontású mikroszkópia I
+> - nagyfelbontású mikroszkópia II
+> - Digitális mikroszkópia
 
 - 2 zh
 - 1 féléves feladat
@@ -347,3 +360,78 @@ https://piurimaging.com/
 használata:
 - daganatok pontos volumen mérse, stb
 - transrectális, transvaginalis ultrahang
+
+## Optika, mikroszkópia
+> Képalkotás, optikai tartományban, mik a lencse hibák, mivel korrigálhatóak, stb.
+>
+> Megvilágítás, milyen a mikroszkóp beli megvilágítás, milyen előfeldolgozás lehetséges, festés, dlc, hoffmann, fázis, sötét látóteres mikroszkóp.
+
+
+### Mikroszkóp felépítése
+![mikroszkóp szerkezete](http://clipart-library.com/images/gie5864eT.jpg)
+1. fényforrás
+2. fénnyaláb
+3. tükör
+4. kondenzor
+5. tárgylemez
+6. objektív / tárgylencse
+7. test
+8. szmelencse
+
+### Lencse rendszer
+http://mesterandras.hu/wp-content/uploads/2020/03/Geom_optikalencsek-1.pdf
+- lencse fősíkja és a fókusz között a fókusztávolság
+- a kettő közötti közeg törésmutatója befolyásolja a fény törésmutatóját
+
+### lencse tulajdonságai
+https://docplayer.hu/43658178-Optika-gombtukrok-kepalkotasa-lekepezesi-hibak-dr-seres-istvan.html
+- törésmutatója
+- numerikus pertúra: a lecse fénygyűjtő képessége, jele *NA*, az olajé a legjobb
+- felbontása, jele *`d = lambda/2*NA`[~micro m]*
+- mélységélesség *z-tartomány*
+- látómező: megvilágított kör szemlencsében [~mm]
+- munkatávolság: objektív-fedőlemez táv
+
+![objektív](http://www.bwoptics.com/html/UploadFile/201056846928.jpg)
+
+- szférikus aberráció: ![szférikus aberráció](https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Spherical_aberration_2.svg/1024px-Spherical_aberration_2.svg.png)
+  a lencse nem meg  fókuszpontba öszpontosít
+- kromatikus aberráció: ![kromatikus aberráció](https://digiretus.hu/wp-content/uploads/2017/12/photoshop-szinhiba-eltavolitasa-6.jpg)
+  másképp töri meg a fénysugarakat, és a színek kettéválnak
+  **javítása: ** a lencse állíása mert nem jó pontban van
+- képmezőelhajlás/mezgörbület
+  ![képmezőelhajlás](https://docplayer.hu/docs-images/59/43658178/images/21-0.png)
+  **javítása: ** digitálisan szoorzzuk egy korrekciós mátrixszal
+- asztigmatizmus ![asztigmatizmus](http://autosjatekok.co.hu/images/lts-lesen-esett-az-asztigmatizmus.jpg)
+  **javítása: ** növeljük a látómezőt
+- üstököshiba: ![üstököshiba](https://cdn-60a62604c1ac1c1d10df7525.closte.com/wp-content/uploads/sites/321/2010/12/v_o_koma_hiba.png)
+  **javítása: ** több lencsét tudunk használni
+
+## nagyfelbontású fénymikroszkópia I.
+- Lézer: koncentrált fénnyaláb, leadja az energiatöbbletet, ezt kezeljük fotonként,
+A fény mindenképpp szinuszosan moszog!
+
+Hullmámhossz egyensen arányos a frekvenciával.
+ 
+**Huygens elv:** körhullám -> hullámtér -> minden egye pont egy-egy egyedi hullámforssának tekinthető -> ezek széle egy gömbhullám amin van a hullámgörbe
+
+**Fresnel elv:** ezek a köthulllámok interferálnak, és ezeke eredője adja meg milyen az egész fényünk.
+
+Étendue: geometriai kiterjedés.
+         - https://en.wikipedia.org/wiki/Etendue
+
+**fázis konjugált tükrök: ** visszatükrözi sé folymatosan normalizálja az Étenduet
+
+Festési eljárások:
+- hematoxifin: mivel savas ezért a sejtmagokhoz ideális
+- eosin: bázikus, pl citoplazmához való.
+
+**kotrasztosíás**
+- kvalitatív 3D fotografikus
+- 2x prizma, fény polarizálása
+- analizátor: fáisretardáció, fénnyaláb rekombinálása
+- DIC
+- Hoffmann modulációs kontraszt mikroszkóp: aaz aperturán lévő lyukakkal állítja a éfny mennyiségét, és így csökkenti a glória hatást.
+- fázisrárgy: a féyn amplitúdóján lehet ávltoztatni, ezzel fáziskontraszt mikroszkópot alakíthatnunk ki, át állítjuk a fény mennnyisgét, a kondenzátor egységesíti, de a fázisát beállíottuk, így csak a kontúrok jelennek meg.
+
+**sötétlátóteres mikrszkóp:** kolloid mintáknál lehet használni, tegár kéepsek a fényt szórni, és mi ezt a szórt féynt látjuk a végén. Mindent mai mikrométers tartományba esik és festetlen alalmas rá.
