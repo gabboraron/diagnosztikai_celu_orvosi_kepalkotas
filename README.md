@@ -435,3 +435,13 @@ Festési eljárások:
 - fázisrárgy: a féyn amplitúdóján lehet ávltoztatni, ezzel fáziskontraszt mikroszkópot alakíthatnunk ki, át állítjuk a fény mennnyisgét, a kondenzátor egységesíti, de a fázisát beállíottuk, így csak a kontúrok jelennek meg.
 
 **sötétlátóteres mikrszkóp:** kolloid mintáknál lehet használni, tegár kéepsek a fényt szórni, és mi ezt a szórt féynt látjuk a végén. Mindent mai mikrométers tartományba esik és festetlen alalmas rá.
+
+## mediso
+egyedül nekik van 3 fejő MRük
+
+a spektnél a adott keresett problémához igazítjuk az izotópot ami a leginkább reagál az adott valamire.
+
+egy spekt felvétel 25-40 percig tart a valóságban
+
+6 milli sv az éves határ amit nem haladhat meg az egy főre eső sugárzás
+
