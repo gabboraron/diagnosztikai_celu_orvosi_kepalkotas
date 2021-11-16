@@ -445,3 +445,101 @@ egy spekt felvétel 25-40 percig tart a valóságban
 
 6 milli sv az éves határ amit nem haladhat meg az egy főre eső sugárzás
 
+## Nagyfelbontású fénymikroszkópia II.
+### Konfokális mikroszkóp
+> **fluoreszencia mikroszkóp**
+>
+> Az angyagot megvilágítjuk fénnyel amit utána emittál, ez a stokes shift: abszorció - emisszió
+>
+> - minden anyagot ami hullámváltoztatásra képes *flourofór*
+>
+> A mintán belül csak a kiválasztott sejtekkel tudjon érdemi mennyiségben elreagálni. Az energiát átadjuk és az fényként emittálódik
+>
+> - *adszorció:* csak a felületén képes anyagokat megkötni
+> - *abszorció:* az anyag mélyében is képesek vagyunk megkötni az anyagot <- *fluoereszcencia*
+>
+> 1. *dichroicus* tükörrel megtörjük a fényt de csak az adott hullámhosszon, amit egy *excitation* szűrővel szűrünk, visszajuttatjuk a tükörnek az objektí@en keresztül majd a másik hullámhosszon amit már a tükör átenged és ez jut az oculárba.
+> 2. szelektív megjelenés + emissziós szűrő -> jó kontraszt -> specifikus megfigyelhetőség
+>    **előnye**: jól színezhető
+
+
+#### Abbey-elv
+> https://en.wikipedia.org/wiki/Diffraction-limited_system
+>
+> fénynyalábot nem lehet minden határon túl fókuszálni  => egy elemi tárgypont képe elmosódott lesz => Airy korong => felbontás limit
+>
+> **felbontás javítás:**
+> - ha a képet megvilágítjuk nem csak X-Y síkban történik a diffrakció
+> - Ha a lencse széléből jön a fénynyaláb is zavart okozhat
+> - síkokból érkező fénynyalábok kiküszöbölése
+> - a képsíkban a szélső területekről érkező fénynalábok kiküszöbölése
+> - diffrakciós limit átlépése: ![The Abbe diffraction limit for a microscope](https://wikimedia.org/api/rest_v1/media/math/render/svg/2a4dfa1f30e4a718d5c4573d5bdac3fd96e248fb)
+
+### Konfokális mikroszkóp
+> **Lumineszencia:** gerjesztés után elindul a relaksázciós folyamat
+>
+> **foszfor esszencia:** olyan állapotokba is belép az leketron amikbe ha önmagában lenne nem lépne be.
+>
+> ![konfokális mikroszkóp](https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Confocalprinciple_in_English.svg/1024px-Confocalprinciple_in_English.svg.png)
+>
+> Ezzel kiküszöböljük a nem képsíkból érkező nyalábokat. Ezért pásztáznunk kell, mivel ekkor egy pontból kapunk fénnyalábokat.
+>
+> - vízszintes ~ 200 nm
+> - függőleges ~ 500 nm -> baktérium vírsu vizsgálata
+> -> xy-sík
+
+### STED: Stimulált emissziós kioltáso mikrozkóp
+> Kontra fényeketi nddítunk melyek hullámhossza kioltja a megjelenő fényt és ezzel pásztázunk így az adott ponthoz pontos értéket tudunk mondani.
+>
+> a fény hullámhossza úgy van belőve, hogy más sejteket ne lássunk.
+>
+> - felbontás: 40-90nm -> fehérjék nayobb szerkezetét látjuk
+
+### NSOM - Near field scanning optical microscope
+> Az apperturához közel tesszük a mintát, ezért kevesebb fény megy át.
+> - felbontás: ~ 10nm -> proteinek kisebb szerkezeteinek vizsgálata
+
+### elektronmikroszkóp / pásztázó próba mikroszkóp
+> https://www.zeiss.com/microscopy/int/cmp/lsc/21/sim-squared.html
+>
+> STM = Scanning Tunneling Microsckope (elektron)
+>
+> Alapjelenség: alagút effektus: szubnanonméteres távolságra levő potenciál különbséggel rendlekező pontok között az elektronok csak egy nagy valószínűséggel jellemzett "scatornán" keresztül közledhetnek
+>
+> működés: feszültséget adunk a rendszerre, ezért a minta elkezd mozogni, a mintára lézerfényt vetítünk, ami visszaverődik egy tükörre amin mérjk a fény mennyiségét, és így tudjuk mérni a fizikai felületünk felszínét.
+>
+> felbontás: ~ 1nm -> molekulák szintje
+
+## Digitális mikroszkópia III.
+> Képalkotás érzékelt jelek feldolgozásával alkaítunk ki látzható digitális képeket
+>
+> képfeldolgozás a kialakított kép sajátosságait módosítás szűrés keresés elemzés
+>
+> **képalkotás menete:**
+> - jel átalakítás elektromossá
+>   - CCD: fotoérzékeny áramköri lapka
+>   - fény intenzitása ~ áramerősség
+>     - a különböző irányból érkező fény egymáshoz képest is arányos kell legyen
+>   - étalkítás precizitásának biztosításához at analóg jelet megfelelően kell erősíteni/csillapítani
+>   - túlfeszültség védelem -> adott fényerősség fölött maximum érték átadása
+> - analóg jel kondicionálása
+> - analóg jel mintavételezése
+>   - piramis képként van tárolva
+>   - felbontás változtatható -> file pixelek negyedelése
+>   - 3D: összeillesztés z-tengely mentén-> praffin blokk rekonstruálása <- stitching
+> - minták kvantálása
+> - kódolás
+>
+> **Hibák a képalkotásban** ugyanúgy lehetséges mint [korábban](https://github.com/gabboraron/diagnosztikai_celu_orvosi_kepalkotas#lencse-tulajdons%C3%A1gai)
+> - alulmintázás is történhet egy változó rendszerből: Nyquist-kritérium
+> - [Hisztogram](https://github.com/gabboraron/szamitogepes_kepfeldolgozas#hisztogram) pixel fényesség eloszlás
+> - alacsoiny bitmélység: kvantáláskor
+> - adott pixel intenzitás mennyi bittel írható le, kontraszt elveszhet, javítás: több biten tárolunk.
+
+
+
+
+
+## Beadandó - Mikroszkóp építés
+- [I made a scanning laser microscope](https://www.youtube.com/watch?v=9TYlQ4urcg8)
+- https://openflexure.org/
