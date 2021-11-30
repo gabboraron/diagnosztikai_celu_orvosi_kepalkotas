@@ -536,9 +536,23 @@ egy spekt felvétel 25-40 percig tart a valóságban
 > - alacsoiny bitmélység: kvantáláskor
 > - adott pixel intenzitás mennyi bittel írható le, kontraszt elveszhet, javítás: több biten tárolunk.
 
+## 0,1 THz inpulzusos sugárzás mérés
+elektrooptikai mintavételező
 
+> Revolutionary enhancement of visibility by exploring active light fields
+- kis energia
+- alkalmas spektroszkópiához is
+- biztosnágtechniaki alkalmazása
+- belemegy az anyagba
 
+## UWB radar alapú képalkotás
+- kis impulzusok
+- rövid dieig
+- nagy energiát ad át
+- camero tech 
 
+## spektroszkópia
+- 
 
 ## Beadandó - Mikroszkóp építés
 - [I made a scanning laser microscope](https://www.youtube.com/watch?v=9TYlQ4urcg8)
