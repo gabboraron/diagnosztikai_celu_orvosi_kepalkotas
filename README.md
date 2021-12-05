@@ -552,8 +552,341 @@ elektrooptikai mintavételező
 - camero tech 
 
 ## spektroszkópia
-- 
+visszavert féyn alapján képalkotás
 
+-----
 ## Beadandó - Mikroszkóp építés
 - [I made a scanning laser microscope](https://www.youtube.com/watch?v=9TYlQ4urcg8)
 - https://openflexure.org/
+
+----
+
+## ZH II. - felkészülés
+### VI.Spektroszkópia/spektrometria
+#### 1. A spektroszkópia/spektrometria alapjai
+> - egy színkép megfigyelésének módszere
+> - A molekula energiaállapotát az elektronok energiaállapota (`Eel`) az atomok rezgési (`Ev`) és forgási állapota (`Er`) együtt szabja meg: `h = E1-E2 = (Eel,1-Eel,2) + (Ev,1-Ev,2) + (Er,1-Er,2)`
+> 
+> **hullámok típusa szerint:**
+> - elektromágneses sugárzás
+>   - Látható fény spektroszkópia
+>   - Gamma spektroszkópia
+>   - Röntgen spektroszkópia
+>   - Ultraibolya spektroszkópia
+>   - Infravörös spektroszkópia
+>     - távoli, közép és közeli
+>   - Terahertzes spektroszkópia
+>   - Mikrohullámú spektroszkópia
+>   - Rádióspektroszkópia
+> - részecskesugárzás
+> - nyomáshullám
+> 
+> **Raman elvű spektroszkópia**
+>> egy anyagot erős monokróm az arról visszaverődő fény az anyag összetételétől függően frekvenciájában megváltozik, egy fénysprektrumot eredményez. A spektrumból következtetni lehet a vizsgált anyag tulajdonságaira
+>>
+>> ![Raman spektrométer](http://www2.sci.u-szeged.hu/inorg/MOMA/resources/img-07-07.jpg)
+>> 
+>> *A lézerfényt ráirányítjuk a mintára majd az onnan visszaverődő fényt egy szűrővel kiszűrjük, hogy biztosan csak a visszaverődőt kapjuk meg, majd ezután egy spektrumra leképezzük a rács segíségével.*
+>> 
+>> A minta lehet gáz, folyadék vagy szilárd is!
+>
+> **kölcsönhatás szerint:**
+> - abszorpciós spektroszkópia
+> - emissziós spektroszkópia
+> - rugalmas szórás
+> - rugalmatlan szórás
+> - rezonancia spektroszkópia
+>
+> **Termikus:** infrasugárzás hatására felmelegszenek és ennek hatására valamelyik fizikai (villamos) paraméterük megváltózik => villamos jel "kinyerhető„
+>
+> **Foton-detektoros:** fotonok számával arányos villamos jelet adnak, de működésükhöz mély hőmérsékletre való lehűtésük szükséges
+>
+> **A termográfia (hőtérképezés):** 
+>> funkcionális eljárás, az emberi test hőmérsékletét mérjük infrakamerával és szoftver segítségével. A bőrfelszínen és a test belsejében zajló egyes élettani vagy kórélettani folyamatokis figyelhetőek vele.
+>> 
+>> **Szkennelő (letapogató):**
+>> egyelemű ("pont"-) detektort használnak az infravörös sugárzás átalakítására és a mérendő tárgyat egy mechanikus rendszerrel tapogatják le.
+>> 
+>> **Mátrixdetektoros hőkamerák:** 
+>> mechanikailag egyszerűbb, hőkép minden egyes képpontját egy-egy egyedi érzékelő alakítja át.
+>> 
+>> **termográfai főbb típusai:**
+>> - **Natív termográfia:** test hősugarainak manipuláció nélküli vizsgálata. *Szűrővizsgálatoknál használható.*
+>> - **Funkcionális termográfia (stresz termográfia)**
+>>     - Terhelés esetén, a test hőmérsékletében gyors változást tudunk elérni, mely lassan rendeződik vissza. 
+>>     - Termogén (hideg illetve a meleg próba), melyhez használhatunk: vizet, alkoholt, levegőt, klóretilt, száraz jeget stb.
+>>     - Fizikai terhelést jelent, azaz, pl. lépéspróba. *Izomcsoportok vizsgálatára alkalmas.*
+>>     - Kémiai próbák. Kemikáliákat alkalmazásával: cukrot a mellrák esetében, nitroglicerint az artériás érbetegségek esetén. 
+>> - **Dinamikus termográfia:**
+>>     Ez a módszer vagy folyamatos, vagy intermittáló felvételek készítéséből áll. Alkalmas *terápia hatékonyságának követésére*. 
+ 
+#### 2. A spektroszkópia/spektrometria előnyei, 
+> **termográfiás spektroszkópia (hőkamera):**
+> - A sugárforrás maga az ember  
+> - Nincs a szervezetre kisebb-nagyobb mértékben károsító hatás (CTI, MRI)
+> - Teljes mértékben nem invazív vizsgálat
+> - Nem szükséges szüneteket pihenő időket tartani két mérés között
+> - Más képalkotó módszerekhez képest olcsóbb  (a szükséges technikai háttér megvalósítása)
+> - Betegség/kór megelőző eljárás 
+> - Vizsgálatait az alaktani (morfológiai) elváltozásokra épít
+> - Alaktani elváltozások a struktúrák denzitás eltérésein át észlelhetők
+> - Gyors, fájdalommentes, nincs mellékhatása.
+> - Egy-három méteres távolságból készíthető.
+> - nem igényel különös előkészítést a beteg részére
+> - a vizsgálat gyors, kockázat- és fájdalommentes
+> - a vizsgálat korlátlan számban ismételhető, mivel a testet nem éri semmilyen káros hatás, vagy beavatkozás
+> - a vizsgálat során képet kaphatunk az egyes elváltozások korai stádiumáról, amikor azok jó eséllyel gyógyíthatóak
+> - a vizsgálat sikeresen alkalmazható együtt bármilyen más diagnosztikai és gyógyászati módszerrel
+> - nyomon követi az alkalmazott gyógyszer(ek), terápiák hatását
+> - olyan személyek részére is alkalmas, akiknél egyes diagnosztikai eljárások az állapotuk, vagy betegségük miatt csak korlátozottan, vagy egyáltalán nem jöhetnek szóba (várandós, szoptatós kismamák, stb.)
+> - Általános állapotfelmérés
+> - Szűrővizsgálatok végzésére
+> - Egyes gyomor-bélrendszeri betegségek szűrésére
+> - A váz- és izomrendszer állapotfelmérésére
+> - Ízületek, inak, csontok
+> - Egyes daganatok vagy megelőző állapotok szűrésére
+> - Egyes neurológiai megbetegedések szűrésére
+> - krónikus és heveny hátfájdalom
+> - migrén okainak szűrésére
+> - Keringési megbetegedések vizsgálatához
+> 
+> **Pulzoximetria**
+> - Fájdalommentes vizsgálat 
+
+#### 3. A spektroszkópia/spektrometria hátrányai
+> **hőkameránál:**
+> - Ritkán előfordulat, hogy nehéz korrekt véleményt mondani.
+> - Az alkohol és az altatók olykor különös és váratlan eltérés okoznak a bőrön
+> - Erős gyógyszerek is korlátozzák a vizsgálat értékelhetőségét.
+> - Napégés jelentősen befolyásolja a vizsgálatot.
+> - A menstruáció időszaka is nehézséget jelent a diagnosztikában.
+> 
+> **Pulzoximetria**
+> - Kritikus állapotú betegben a módszer sajnos gyakran megbízhatatlan a perifériás vasoconstrictio miatt (az eszköz nem érzékeli a pulzushullámot).
+
+#### 4. Spektroszkópia/spektrometria vizsgálati megoldások
+> **Kvalitatív vizsgálatok:**
+> - **spektrum alapján:** Két anyagot akkor tekintünk azonosnak, ha abszorpciós színképük teljes egészében megegyezik
+> - **abszorpciós színkép alapján:** eldönthető egy-egy anyag tisztasága ill. szennyezettsége, a szennyező abszorciójának mértéke is megadható.
+> 
+> **Kvantitatív vizsgálat:**
+> - Kis koncentrációjú anyagok, ún. nyomszennyezők vizsgálata
+> - több anyag keverékéből valamelyik komponens meghatározása 
+> - Több komponensű rendszer mennyiségi meghatározását
+>
+> **Pulzoximetria**
+> Nem invazív
+> Oxigén szaturációt lehet vele mérni
+> Véroxigén szint változás érzékelés
+> Milyen hatékonyan tud a szív oxigéndús vért pumpálni 
+> Kis csipeszhez hasonló készülék
+> Ujjra csiptethető, lábra (csecsemők), vagy fülre
+> Elterjedten használják intenzív osztályokon, illetve kórházakban
+>
+> *Alkalmazásai:*
+> - *Chronic obstructive pulmonary disease (COPD)*
+> - *Asztma*
+> - *Pneumonia*
+> - *Tüdőrák*
+> - *Anémia*
+> - *Szívinfarktus, szívproblémák*
+> - *Hypoxia kimutatására*
+> - *oxigénterápia ellenőrzésére
+> - *Folyamatos monitorozás*
+> - *Könnyen használható*
+> - *használható távmonitorozásra is*
+
+#### 5. A spektroszkópia/spektrometer berendezés általános belső működése
+> **Hőkamera:**
+>> - Melegvérű állatok szervezetében folyamatok során hő keletkezik, amely infravörös fény formájában kilép a testből.
+>> - A hőkamera a testfelszín által kibocsátott 1-100 mikron közötti hosszúhullámú infravörös sugárzást méri.
+>> - A test felszínéről érkező hősugárzást a kamera érzékeli és méri, az adatot villamos jellé alakítja és digitalizálja.
+>> - A számadatokhoz színskálákat rendelnek => ez kerül megjelenítésre képként
+>> - A hősugárzás mennyisége és hullámhossza a testfelület hőmérsékletétől és hősugárzó képességétől függ. 
+>> - Az emberi bőrnek ideális, 94-95% a sugárzóképessége. Minden biokémiai folyamatnak sajátos termikus függősége, infravörös másodlagos kisugárzása van.
+>>   - általánosan a végtagoknál a legalacsonyabb, a belsőszerveknél a legmagasabb
+>> - A keletkezett hő kb. 85%-ban a bőrön és 15%-ba a tüdőn kelresztül távozik
+>> - hőszállító közeg a vér, ezért a szervekből jövő vénás vér hőmérséklete magasabb, mint az odaáramló artériás véré, bőrből és a tüdőből jövő pedig még alacsonyabb.
+>> - standard körülmények kzött 37,5˙C maghőmérséklet; 1˙C napszaknyi ingadozása van. Szájban ugyanez 36,8˙C; 0,4˙C ingadozással
+> 
+> **Pulzoximetria**
+>> - Különböző hullámhosszúságú fény különböző mértékben nyelődik el az oxidált és a redukált haemoglobinban.
+>> - A pulzushullám alatti nettó abszorpciót (elnyelést) mérik. Ez minimálisra csökkenti a szövetek, valamint a vénás és capillaris vér hatását az eredményre.
+>> - Az eszközt általában 75–99%-os SaO2 értéken kalibrálják, a maximális hiba kb 2%
+>> ![spo2 mérés](https://slideplayer.hu/slide/5747458/18/images/22/AZ+OXIMETRIA+ALAPELVEI.jpg)
+>> 
+>> érétkek:
+>> - 95%-100% normális *(75-100 Hgmm)*
+>> - 95% alatt hpoxemia *(60 Hgmm)*
+>> - tartósan 89% alatt sejt károsodás
+
+
+### VII.CTI - Computerised Thermal Imaging
+1. A CTI alapú képalkotás
+2. A CTI vizsgálat előnyei, hátrányai
+3. A CTI alapú vizsgálatok típusai
+4. A főbb hőkamera típusok/általános belső működésük 
+5. A CTI alapú képalkotás problémái
+
+### VIII.NIRS - Near-infrared spectroscopy
+#### 1. A NIRS alapú képalkotás
+> - Agyi oxigenizáció és hemodinamika monitorozása
+> - Közeli infra abszorpció [O2Hb] és Hb [HHb]
+> - Helyi  és agyi O2 szaturáció: rScO2
+
+#### 2. A NIRS vizsgálat előnyei, hátrányai
+> ##### előnye:
+> - Újszülötteknél jól használható
+>
+> ##### hátránya:
+> -  
+
+#### 3. A NIRS alapú vizsgálatok típusai
+>
+
+#### 4. A NIRS berendezések általános belső működése 
+> https://www.youtube.com/watch?v=Dj-X1t5pXvQ&feature=youtu.be
+> 
+> Házi barkácsabb megoldás:
+> 
+> https://www.youtube.com/watch?v=m6zpNSoQTV8
+
+
+#### 5. A NIRS problémái
+
+### IX.Ultrahangos képalkotás
+1. Az ultrahang  berendezés részei, elrendezése, működése
+2. Az ultrahangos vizsgálat jellemzői, előnyei/hátrányai
+3. Az ultrahangos képalkotás: A-mód, B-mód, M-mód, Doppler technikák
+4. Az ultrahangos képalkotás: 3D 4D, 3D leképezés/renderelési módok,
+5. Felületi képrekonstrukciók és ábrázolási módok, VCI, VOCAL
+
+### X.Képalkotás 
+1. Lencsék tulajdonságai (szférikus, aszférikus, chromat/achromat)
+2. Felbontás és számolása, numerikus apertúra
+3. Aberrációk a mikroszkópiában
+4. Kamerák jellemzői és típusai
+5. Nagyítás és számolása, fénytörés, Látómező, Mélységélesség, Munkatávolság
+
+### XI.Nagyfelbontású (fény)mikroszkópia I.
+1. Airy minta
+2. Modulációs átviteli függvény (MTF) 
+3. A mikroszkópok főbb fajtái és jellemzőik
+4. Az átmenőfényes mikroszkóp részei, elrendezése, működése
+5. Az átmenőfényes mikroszkóp jellemzői, előnyei/hátrányai
+
+### XII.Nagyfelbontású (fény)mikroszkópia II.
+1. Huygens-Fresnel elv
+2. A fluoreszcens mikroszkóp részei, elrendezése, működése
+3. A fluoreszcens mikroszkóp jellemzői, előnyei/hátrányai
+4. A sötétlátóteres (darkfield) mikroszkóp része, elrendezése, működése
+5. A sötétlátóteres (darkfield) mikroszkóp jellemzői, előnyei/hátrányai
+
+### XIII.Digitális mikroszkópia
+1. A digitális mikroszkópia előnyei
+2. Szuperrezolúció elve, működése, előnyei/hátrányai
+3. A tárgylemez scanner felépítése,működése, előnyei/hátrányai
+4. Szkennelési típusok
+5. Mintavétel képek esetében (Nyquist)
+
+### XIV.Képi adatok tárolása és menedzselése
+1. Képtárolás fájl formátum szinten
+2. Orvosi képalkotókból származó információk tárolásának problémái 
+3. Metszeti síkok és képi orientáció
+4. DICOM szabvány
+5. PACS feladatai, felépítése
+
+### fogalmak: 
+- **1.	Spektroszkópia:** egy színkép megfigyelésének módszere
+     - **1.1 Spektrometria:** nagy érzékenység, nagy pontosság, rendkívüli egyszerűsége, gyorsasága, kis anyagigény
+- **2.	Spektrum:**
+- **3.	abszorpciós spektroszkópia**
+- **4.	emissziós spektroszkópia**
+- **5.	rezonancia spektroszkópia**
+- **6.	Fekete test**
+- **7.	Abszorpciós tényező**
+- **8.	Transzmissziós tényező **
+- **9.	Reflexiós tényező**
+- **10.	MIR - Mid InfraRed**  
+- **11.	NIR – Near Infrared**  
+- **12.	Termikus infrasugárzás-érzékelő**
+- **13.	Foton-detektoros  infrasugárzás-érzékelő**
+- **14.	Termogram**
+- **15.	termográfia** 
+- **16.	CTI  - Computerised Thermal Imaging**
+- **17.	Szkennelő hőkamera**
+- **18.	Mátrixdetektoros hőkamera**
+- **19.	hőszállító közeg**
+- **20.	fiziológiás testhőmérséklet**
+- **21.	maghőmérséklet**
+- **22.	Invazív vizsgálat**
+- **23.	Denzitás**
+- **24.	Natív termográfia**
+- **25.	Funkcionális termográfia/stressz termográfia**
+- **26.	Termogén**
+- **27.	Dinamikus termográfia**
+- **28.	Near Infrared Spectroscopy (NIRS)**
+- **29.	hemodinamika**
+- **30.	agyi O2 szaturáció**
+- **31.	piezoelektromos kristály**
+- **32.	A-mód**
+- **33.	B-mód**
+- **34.	M-mód**
+- **35.	TGC – idő vétel kompenzáció**
+- **36.	Color Doppler**
+- **37.	Power Doppler**
+- **38.	Spektrum Doppler**
+- **39.	transducer**
+- **40.	Fotorealisztikus képi megjelenítés**
+- **41.	Felületi/surface vizsgálati mód**
+- **42.	Áttetsző/transzparens vizsgálati mód**
+- **43.	Kevert vizsgálati mód**
+- **44.	in vivo**
+- **45.	in vitro**
+- **46.	in silico**
+- **47.	volumen renderelés**
+- **48.	ROI**
+- **49.	orientáció**
+- **50.	longitudinális**
+- **51.	transzverzális**
+- **52.	Horizontális**
+- **53.	coronalis**
+- **54.	axialis**
+- **55.	anterior** 
+- **56.	posterior** 
+- **57.	cranialis** 
+- **58.	caudalis** 
+- **59.	Niche mód** 
+- **60.	Felszíni (textúra) mód /Surface texture/**
+- **61.	Felületi (elmosott) mód**
+- **62.	Megvilágított mód** 
+- **63.	Grádiens megvilágított mód**
+- **64.	Maximum mód**
+- **65.	Minimum mód**
+- **66.	X-ray mód**
+- **67.	Transrectalis 3D vizsgálat**
+- **68.	Transvaginalis  3D vizsgálat**
+- **69.	Huygens elv**
+- **70.	Huygens-Fresnel elv**
+- **71.	diffrakció**
+- **72.	Airy korong**
+- **73.	Airy minta**
+- **74.	PSF: Point Spread Functions**
+- **75.	Rayleigh kritérium**
+- **76.	Dawes kritérium**
+- **77.	szuperrezolúció**
+- **78.	Numerikus Apertúra**
+- **79.	Térbeli felbontás**
+- **80.	diffrakciós minta**
+- **81.	Nyquist kritérium**
+- **82.	Modulációs átviteli függvény - MTF**
+- **83.	Kondenzor apertúra**
+*ezek kimaradtak:*
+- **84.	DICOM - Digital Imaging and COmmunication in Medicine **
+- **85.	MIME**
+- **86.	PACS - Picture Archiving and Communications System**
+- **87.	HL7- Health Level Seven**
+- **88.	Electronic Health Record (EHR)**
+- **89.	Personal Health Record (PHR)**
+
+
