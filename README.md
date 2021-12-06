@@ -720,7 +720,6 @@ visszavert féyn alapján képalkotás
 >> - 95% alatt hpoxemia *(60 Hgmm)*
 >> - tartósan 89% alatt sejt károsodás
 
-
 ### VII.CTI - Computerised Thermal Imaging
 1. A CTI alapú képalkotás
 2. A CTI vizsgálat előnyei, hátrányai
@@ -751,15 +750,146 @@ visszavert féyn alapján képalkotás
 > 
 > https://www.youtube.com/watch?v=m6zpNSoQTV8
 
-
 #### 5. A NIRS problémái
+> 
 
 ### IX.Ultrahangos képalkotás
-1. Az ultrahang  berendezés részei, elrendezése, működése
-2. Az ultrahangos vizsgálat jellemzői, előnyei/hátrányai
-3. Az ultrahangos képalkotás: A-mód, B-mód, M-mód, Doppler technikák
-4. Az ultrahangos képalkotás: 3D 4D, 3D leképezés/renderelési módok,
-5. Felületi képrekonstrukciók és ábrázolási módok, VCI, VOCAL
+#### 1. Az ultrahang  berendezés részei, elrendezése, működése
+> A hang terjedése mindig valamilyen anyagban, közegben történik, vákuumban nem terjed. A hangsebesség nagyságát az anyag illetve annak fizikai állapota határozza meg.
+> 
+> - Hallható hang: 20-20.000 Hz
+> - Infrahang: <20 Hz
+> - Ultrahang: >20.000 Hz
+> - Orvosi diag. ultrahang:>1MHz
+> 
+> Távolság (`d`) arányos az idővel (`t`). Ha tudom a  terjedési sebességet (`c`) akkor a távolság: `d=1/2 (cxt)`. `c = fxλ`, ezzel a frekvencia és a hullámhossz is kiejthető.
+> 
+> ![how ultrasound works](https://djmedquip.co.za/wp-content/uploads/2017/08/How-does-an-ultrasound-work.jpg) 
+> 
+> A nyalábméret Visszaverődik -> Megtörik -> Széttörik -> Elnyelődik -> Interferálódik.
+
+#### 2. Az ultrahangos vizsgálat jellemzői, előnyei/hátrányai
+> ##### előnyei
+> - Hasi, kismedencei vagy lágyrész elváltozások esetén első vizsgálati módszer → meghatározza a további vizsgálatokat
+> - gyors tájékozódásra, több szerv egymás utáni áttekintésére 
+> - Terhes hölgyeknél betegségek, deformitások kizárása
+> - Kvantitatív, kvalitatív szerv morfológiai és funkcionális vizsgálatok 
+> - nem invazív
+> - nincs káros biológiai hatása?! (Ellenjavallata nem ismert)
+> - a beteg legtöbbször külön előkészítést nem igényel
+> - nem kell idegen anyagot a betegbe juttatni a vizsgálathoz
+> - az elváltozások belső szerkezetéről is ad pontos információt
+> - széles körben hozzáférhető, egyszerű, „olcsó”
+> - Nem ionizál -> gyermekekben, terhesekben előnyben részesítendő
+> - Komplex vizsgáló módszer, légtartó csonttal fedett területek kivételével, minden szerv és szervrendszer vizsgálható.
+> - Egyszerűen kivitelezhető → gyors, ismételhető
+> - Gyorsasága miatt jól használható szűrésekhez: veleszületett csípőficam
+>  
+> ##### hátrányai
+> - Közvetlen kontaktus a beteggel (kikérdezés, tapintás)
+> - A bélgázok és a tüdőszövet akadályozzák a leképezést
+> - Vizsgálófüggő, nehezen reprodukálható 
+> - Műtermékek, pontatlan mérések
+> - A kép sok esetben csak az ultrahang mérési pont ismeretében lehetséges
+
+#### 3. Az ultrahangos képalkotás: A-mód, B-mód, M-mód, Doppler technikák
+> ##### A-mód
+> - Piezoelem, jel (hang) kibocsátás és fogadás
+> - A visszaérkező jelet nézhetjük oszcilloszkópon
+> - TGC – idő vétel kompenzáció (adott időablak kimaszkolása) 
+>   - szöveti abszorpció hatásának kiküszöbölésére
+>   
+> ![](https://slidetodoc.com/presentation_image/fd81e2a20533eddb5c55c970c1380011/image-7.jpg)
+> 
+> ##### B-mód *(brightness modulation)*
+> - Mint az A mód, csak fényességével jelenítünk meg. 
+> - probléma a gömbszerű terjedés → interferencia!
+> 
+> *felhasználás:*
+> - *vese vagy máj körvonalai*
+> - *érfalak*
+> - *vese üregrendszere*
+> - *epehólyag bennéke*
+> - *cisztában lévő folyadék és lágyrész közötti határ*
+> - *májban elkülöníthetők az egyenletesen szétoszló és a gócos elváltozások*
+> - *daganatos és ép szövetek határa*
+> - *kontrasztanyag*
+> - *intervenciók vezérlése: ciszta, tályog, aspiráció, biopszia, szervek mozgásjelenségei*
+> 
+> ![ultrasound b mode](https://radiologykey.com/wp-content/uploads/2016/03/B9781437714173000024_f02-08-9781437714173.jpg)
+> 
+> ##### M-mód (TM - Time Motion mód)
+> Az  M-módú ábrázolás egyetlen B képbeli egyenes időbeli változásainak megjelenítése. (*pl: echokardiográfia*)
+> 
+> ![](https://ecgwaves.com/wp-content/uploads/2019/10/motion-m-mode-echocardiography-ultrasound-image-echo-1.jpg)
+> 
+> ##### Color Doppler, Power Doppler, Spektrum Doppler
+> Ha a kibocsátott nyaláb hozzánk közeledő véráramról verődik vissza, nagyobb frekvenciát kapunk, mint amit kibocsátottunk, amennyiben tőlünk távolodik az áramlás, alacsonyabb frekvencia érkezik vissza.
+> - Ha pontosan felénk vagy tőlünk el áramlik, akkor a legnagyobb a frekvencia változása
+> - Csak a merőlegestől eltérő komponens mérhető
+> - Ezzel tudjuk a vért megnézni folyásirányban
+> 
+> ![](https://pulseandprime.com/wp-content/uploads/2020/12/b4baef4e-036a-4172-88aa-f30c4c14f197.jpg)
+> 
+> - Megfigyelni: érszűkület, shunt, szöveti perfúzió
+> - Erek térbeli elhelyezkedése, az egyes szervek vérellátása, a fejlődési rendellenességek és súlyosabb áramlási zavarok 
+> - Alacsony vagy nagy ellenállású terület 
+> 
+> **Power Doppler:** nem az áramló sebesség nagysága, hanem az átáramló közeg tömege jelenítődik meg színskálán.
+
+#### 4. Az ultrahangos képalkotás: 3D 4D, 3D leképezés/renderelési módok,
+> **Leggyakoribb vizsgálati területek:**
+> - hasi és kismedencei szervek
+> - emlő
+> - érrendszer
+> - magzat
+> - vázizom-rendszer, ízület
+> 
+> **3D**: Sok, egymás melletti 2D, azaz síkképet egymás mellé pakolva térbeli képet kaphatunk
+> **4D**-ben időben változóvá tesszük (mozog)
+> - Diagnosztikus pontosság, gyorsaság 
+> - Reprodukálhatóság
+> - Fotorealisztikus képi megjelenítés
+> - *„Felületi, áttetsző, kevert”* vizsgálati mód
+> - Néhány milliméteres képletek in vivo térbeli megjelenítése
+> - Számos fejlődési rendellenesség korábban ismerhető fel
+> 
+> **3D volumetriás vizsgálatok**, 3D color histogram, 3D power doppler (szövetek, szervek szerkezetének, áramlási viszonyainak vizsgálatát teszik lehetővé)
+> 
+> ![2d vs 3d vs 4d](https://www.bloomingbaby.com/wp-content/uploads/2d3d4d_animated_MASTER.gif)
+
+#### 5. Felületi képrekonstrukciók és ábrázolási módok, VCI, VOCAL
+> **Felszíni (textúra) mód /Surface texture/** A felszín szöveti módon kerül ábrázolásra
+> 
+> **Felületi (elmosott) mód** A felszín kisimított, felszíni módban ábrázolódik
+> 
+> **Megvilágított mód** A felszín megvilágított módon kerül ábrázolásra
+> 
+> **Grádiens megvilágított mód** A felszín, mintha egy pontszerű fényforrásból lenne megvilágítva
+> 
+> **Maximum mód:** legnagyobb szürkeérték ábrázolása: csontstruktúrák
+> 
+> **Minimum mód:** legkisebb szürkeértékek ábrázolása: erek, folyadékkal telt üregek
+> 
+> **X-ray mód:** összes szürkeérték ábrázolása: szövetszaporulatok 
+> 
+> ##### VCI
+> - Speciális 4D leképezési mód
+> - A VOL- BOX-on belül, meghatározott „vastag” szelet-térfogaton belül, keskeny szeletek sokaságából történik a leképezés
+> - Tökéletesíti a kontrasztfelbontást, kiváló jel-zaj viszony
+> - Felület textúra mód és a transzparens maximum mód 70/30 %-os keverése + felület transzparens mód
+> - Valós idejű  4D leképezés pszeudo 2D módban
+> 
+> ##### VOCAL
+> - Automatikus kontúrfelismerés (6-120 síkban automatikusan méri a volument, függ az elforgatás szögétől, 9, 15, 30 fok)
+> - Egy virtuális burok létrehozása az elváltozás körül. A burok falvastagsága meghatározható
+> - A vascularisatio automatikus számítása a burkon belül a 3D színhisztogram segítségével
+> - Daganatok pontos volumen mérése (Prostata, ovarium, endometrium, stb.)
+> - Terápia tervezése, ellenőrzése
+> - A legpontosabb térfogat számítási módszer
+
+
+
 
 ### X.Képalkotás 
 1. Lencsék tulajdonságai (szférikus, aszférikus, chromat/achromat)
@@ -841,8 +971,8 @@ visszavert féyn alapján képalkotás
 - **41.	Felületi/surface vizsgálati mód**
 - **42.	Áttetsző/transzparens vizsgálati mód**
 - **43.	Kevert vizsgálati mód**
-- **44.	in vivo**
-- **45.	in vitro**
+- **44.	in vivo** szó szerinti jelentése: élőben
+- **45.	in vitro** szó szerinti jelentése: üvegben. A kísérleti folyamat az élő szervezeten kívül (Petri-csészében, kémcsőben) zajlik le.
 - **46.	in silico**
 - **47.	volumen renderelés**
 - **48.	ROI**
