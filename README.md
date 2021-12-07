@@ -930,10 +930,10 @@ visszavert féyn alapján képalkotás
 - **1.	Spektroszkópia:** egy színkép megfigyelésének módszere
      - **1.1 Spektrometria:** nagy érzékenység, nagy pontosság, rendkívüli egyszerűsége, gyorsasága, kis anyagigény
 - **2.	Spektrum:**
-- **3.	abszorpciós spektroszkópia**
-- **4.	emissziós spektroszkópia**
+- **3.	abszorpciós spektroszkópia:** eldönthető egy-egy anyag tisztasága ill. szennyezettsége, a szennyező abszorciójának mértéke is megadható. Az elnyelodesbol szerez informaciot.
+- **4.	emissziós spektroszkópia:** A kibocsajtott feny szinkepebol nyerunk informaciot.
 - **5.	rezonancia spektroszkópia**
-- **6.	Fekete test**
+- **6.	Fekete test:** Az abszolut fekete test az az elmeleti test, melynek elnyelodese 100%.
 - **7.	Abszorpciós tényező**
 - **8.	Transzmissziós tényező **
 - **9.	Reflexiós tényező**
