@@ -930,31 +930,31 @@ visszavert féyn alapján képalkotás
 - **1.	Spektroszkópia:** egy színkép megfigyelésének módszere
      - **1.1 Spektrometria:** nagy érzékenység, nagy pontosság, rendkívüli egyszerűsége, gyorsasága, kis anyagigény
 - **2.	Spektrum:**
-- **3.	abszorpciós spektroszkópia:** eldönthető egy-egy anyag tisztasága ill. szennyezettsége, a szennyező abszorciójának mértéke is megadható. Az elnyelodesbol szerez informaciot.
-- **4.	emissziós spektroszkópia:** A kibocsajtott feny szinkepebol nyerunk informaciot.
+- **3.	abszorpciós spektroszkópia**
+- **4.	emissziós spektroszkópia**
 - **5.	rezonancia spektroszkópia**
-- **6.	Fekete test:** Az abszolut fekete test az az elmeleti test, melynek elnyelodese 100%.
+- **6.	Fekete test**
 - **7.	Abszorpciós tényező**
 - **8.	Transzmissziós tényező **
 - **9.	Reflexiós tényező**
 - **10.	MIR - Mid InfraRed**  
 - **11.	NIR – Near Infrared**  
-- **12.	Termikus infrasugárzás-érzékelő**
-- **13.	Foton-detektoros  infrasugárzás-érzékelő**
-- **14.	Termogram**
-- **15.	termográfia** 
+- **12.	Termikus infrasugárzás-érzékelő:** infrasugárzás hatására felmelegszenek és ennek hatására valamelyik fizikai (villamos) paraméterük megváltózik, amiből pedig a szükséges villamos jel "kinyerhető„
+- **13.	Foton-detektoros  infrasugárzás-érzékelő: ** fotonok számával arányos villamos jelet adnak, de működésükhöz mély hőmérsékletre való lehűtésük szükséges
+- **14.	Termogram:** Hoterkep.
+- **15.	termográfia: ** A termográfia (hőtérképezés) egy olyan funkcionális vizsgáló eljárás, amelynek során az emberi test hőmérsékletét mérjük infrakamerával egy erre a célra kifejlesztett számítógépes szoftver segítségével.
 - **16.	CTI  - Computerised Thermal Imaging**
-- **17.	Szkennelő hőkamera**
-- **18.	Mátrixdetektoros hőkamera**
-- **19.	hőszállító közeg**
-- **20.	fiziológiás testhőmérséklet**
-- **21.	maghőmérséklet**
-- **22.	Invazív vizsgálat**
-- **23.	Denzitás**
-- **24.	Natív termográfia**
-- **25.	Funkcionális termográfia/stressz termográfia**
-- **26.	Termogén**
-- **27.	Dinamikus termográfia**
+- **17.	Szkennelő hőkamera:** egyelemű ("pont"-) detektort használnak az infravörös sugárzás átalakítására és a mérendő tárgyat egy mechanikus rendszerrel tapogatják le
+- **18.	Mátrixdetektoros hőkamera:** mechanikailag egyszerűbb, hőkép minden egyes képpontját egy-egy egyedi érzékelő alakítja át.
+- **19.	hőszállító közeg:** Peldaul a ver. A szervekből jövő vénás vér hőmérséklete magasabb, mint az odaáramló artériás véré, bőrből és a tüdőből jövő pedig még alacsonyabb.
+- **20.	fiziológiás testhőmérséklet:** A normal mukodes mellett merheto homerseklet(szajban mert adat).
+- **21.	maghőmérséklet:** A belso szervekre jellemzo homerseklet. Ez magasabb nehany fokkal, mint a test felszinen merheto homerseklet.
+- **22.	Invazív vizsgálat:** Olyan vizsgalat mely soran ver serken.
+- **23.	Denzitás:** Valamilyen ertek suruseget fejezi ki adott dimenzioban.(EZT EN TALALTAM KI. FOGALMAZD AT!)
+- **24.	Natív termográfia:** A test hősugarainak manipuláció nélküli vizsgálata. Szűrővizsgálatoknál elterjedten használják.
+- **25.	Funkcionális termográfia/stressz termográfia:** Terhelés esetén, a test hőmérsékletében gyors változást tudunk elérni, mely lassan rendeződik vissza.
+- **26.	Termogén:** (hideg illetve a meleg próba), melyhez használhatunk: vizet, alkoholt, levegőt, klóretilt, száraz jeget stb.
+- **27.	Dinamikus termográfia:** Ez a módszer vagy folyamatos, vagy intermittáló felvételek készítéséből áll.
 - **28.	Near Infrared Spectroscopy (NIRS)**
 - **29.	hemodinamika**
 - **30.	agyi O2 szaturáció**
