@@ -486,7 +486,7 @@ egy spekt felvétel 25-40 percig tart a valóságban
 >
 > - vízszintes ~ 200 nm
 > - függőleges ~ 500 nm -> baktérium vírsu vizsgálata
-> -> xy-sík
+> -> xy-síkszilárd 
 
 ### STED: Stimulált emissziós kioltáso mikrozkóp
 > Kontra fényeketi nddítunk melyek hullámhossza kioltja a megjelenő fényt és ezzel pásztázunk így az adott ponthoz pontos értéket tudunk mondani.
@@ -553,6 +553,53 @@ elektrooptikai mintavételező
 
 ## spektroszkópia
 visszavert féyn alapján képalkotás
+
+## képi adatok tárolása, menedzselése
+> képformátumok:
+> - raw (bináris)
+>   - szigetszerű
+>   - fájlkonvertálásánál elvesztünk adatot
+> - JPEG/JPEG200/TIFF/BMP
+>   - streamelhető
+>   - lehet nem veszteséges tömörítés
+>   - eltűnnek az annotációk
+> - strukturált adatokként
+>   - json/xml
+>   
+> a nagy képeket is tileonknt használhtjuk és összevarhatjuk (stiching)
+> 
+> dicon a köztes formátum amit mindegyik tároló rendszer tud értelmezni. 
+>   
+> az emberi test  Metszettis síkokon:
+> - longitudinális
+> - transzerzlis
+> - horizontális
+> 
+> DIICON fájlként tároljuk rawban a nagy képeket ezekeet metaadattal való támogatását a DICCOM fájl `.dcc3` 
+> 
+> ![](https://dicom.nema.org/medical/dicom/current/output/chtml/part05/figures/PS3.5_7.1-1.svg)
+> 
+> - tag: egyedi aznosító
+> - value length:
+> 
+> [PACS](https://en.wikipedia.org/wiki/Picture_archiving_and_communication_system)-ban tároljuk a kpeket amiket `C-FIND`al keresünk `C-RESPONSE`-ban kapunk váalszt.
+> 
+> Mango a PACS adatainak megjelenítője.
+> 
+> ![](https://www.visualmedica.com/wp-content/uploads/2020/09/Esquema.png)
+> 
+> ### alternatívák
+> - HL7
+> - pathonet
+
+## vérkenet
+> meg tdom mondani egy vörösvvértestről, ohgoy az-e vag yvörösvérsejt, vagy mondjuk röntfgenre tudok berajzolni olyasmit mai egyébként nem látható
+> 
+> A kamera egy kis lyukon át kapja a jelet a tárgyról, a munka nagyját a szoftver végzi el.
+
+
+
+
 
 -----
 ## Beadandó - Mikroszkóp építés
@@ -975,6 +1022,8 @@ visszavert féyn alapján képalkotás
 3. Metszeti síkok és képi orientáció
 4. DICOM szabvány
 5. PACS feladatai, felépítése
+
+
 
 ### fogalmak: 
 - **1.	Spektroszkópia:** egy színkép megfigyelésének módszere
