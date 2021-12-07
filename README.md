@@ -884,19 +884,69 @@ visszavert féyn alapján képalkotás
 > - Automatikus kontúrfelismerés (6-120 síkban automatikusan méri a volument, függ az elforgatás szögétől, 9, 15, 30 fok)
 > - Egy virtuális burok létrehozása az elváltozás körül. A burok falvastagsága meghatározható
 > - A vascularisatio automatikus számítása a burkon belül a 3D színhisztogram segítségével
-> - Daganatok pontos volumen mérése (Prostata, ovarium, endometrium, stb.)
+> - Daganatok pontos volumen mérése (Prostata, ovarium, endometrium, stb.)
 > - Terápia tervezése, ellenőrzése
 > - A legpontosabb térfogat számítási módszer
 
-
-
-
 ### X.Képalkotás 
-1. Lencsék tulajdonságai (szférikus, aszférikus, chromat/achromat)
-2. Felbontás és számolása, numerikus apertúra
-3. Aberrációk a mikroszkópiában
-4. Kamerák jellemzői és típusai
-5. Nagyítás és számolása, fénytörés, Látómező, Mélységélesség, Munkatávolság
+#### 1. Lencsék tulajdonságai (szférikus, aszférikus, chromat/achromat)
+> Fénytörés/refrakció
+> - Nagyítás: `tárgylencse*szemlencse`
+> - Mélységélesség: `z-tartomány`
+> - Látómező: megvilágított kör szemlencsében, (~mm)
+> - Munkatávolság: `objektív-fedőlemez táv`
+> 
+> ![](https://docplayer.hu/docs-images/43/6085367/images/page_4.jpg) 
+
+#### 2. Felbontás és számolása, numerikus apertúra
+> Felbontás `d = λ/2*NA [~µm]`
+> 
+> Numerikus apertúra:
+>   `NA = n * sin (θ) [-]`
+>    törésmutató növelése: 
+>     - levegő: (1,000293)
+>     - víz (1.33)
+>     - glicerin (1.47)
+>     - immerziós olaj (1.51)
+>    NA 1 – 1.4 között (TIRF: akár 1.89 is!)
+    
+#### 3. Aberrációk a mikroszkópiában
+> ![optical aberrations](https://cdn.dynasil.com/assets/optical-aberrations.jpg)
+> 
+> ![optical aberrations](https://www.handprint.com/ASTRO/IMG/spotdiag.gif)
+> 
+> - Szférikus aberráció
+> - Kromatikus aberráció
+> - Geometrikus aberráció
+> - Asztigmatizmus
+> - Üstököshiba
+
+#### 4. Kamerák jellemzői és típusai
+> Fizikai jelek átalakítása elektromos jellé:
+>   Kamera: CCD: fényérzékeny cellákat tartalmazó áramköri lapka → beeső fényt érzékeli → elektromos töltésként továbbadja → áram
+>   
+>   Fény intenzitása ~ áramerősség
+>   
+>   1 fotocella → 1 pixel → felbontás
+>   
+> **Kicsi érzékenység:** mennyi jelet fogsz kapni a kameramodultól egy adott fényerő esetén `1 lux , 1 mp → ? e-` 
+> Nagyobb fényerősséget érzékeli csak
+> - Javítás: erősebb festés, érzékenyebb kamera
+> - Nagy jel-zaj viszony
+> - Elektromos jellé alakításkor
+> - Zajjal telített kép keletkezik → pl.: salt & pepper
+> 
+> **Javítása:**
+> - több kép átlagolása
+> - Feltétel: időben álló kép
+> - Erózió, dilatáció
+
+#### 5. Nagyítás és számolása, fénytörés, Látómező, Mélységélesség, Munkatávolság
+> Nagyítás: `tárgylencse*szemlencse`
+> 
+> Látómező: `megvilágított kör szemlencsében, (~mm)`
+> 
+> Munkatávolság: `objektív-fedőlemez táv`
 
 ### XI.Nagyfelbontású (fény)mikroszkópia I.
 1. Airy minta
