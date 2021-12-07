@@ -959,12 +959,12 @@ visszavert féyn alapján képalkotás
 - **29.	hemodinamika**
 - **30.	agyi O2 szaturáció**
 - **31.	piezoelektromos kristály**
-- **32.	A-mód**
-- **33.	B-mód**
-- **34.	M-mód**
-- **35.	TGC – idő vétel kompenzáció**
-- **36.	Color Doppler**
-- **37.	Power Doppler**
+- **32.	A-mód:** Jel kibocsatas. Majd a visszaerkezo jelet oszcilloszkopon nezzuk.
+- **33.	B-mód:** A visszaerkezo jelet szinesitve jelenitjuk meg. 
+- **34.	M-mód:** B mod idobeli abrazolasa.
+- **35.	TGC – idő vétel kompenzáció:** Hang terjedese szempontjabol azonos szoveteket. Tavolabbi szovetekrol kisebb jelek verodnek vissza mint a kozelebbiekrol. TGC az azonos tipusu szoveteknel azonos amplitudot eredmenyez.
+- **36.	Color Doppler:** 
+- **37.	Power Doppler:** nem az áramló sebesség nagysága, hanem az átáramló közeg tömege jelenítődik meg színskálán.
 - **38.	Spektrum Doppler**
 - **39.	transducer**
 - **40.	Fotorealisztikus képi megjelenítés**
@@ -987,28 +987,28 @@ visszavert féyn alapján képalkotás
 - **57.	cranialis** 
 - **58.	caudalis** 
 - **59.	Niche mód** 
-- **60.	Felszíni (textúra) mód /Surface texture/**
-- **61.	Felületi (elmosott) mód**
-- **62.	Megvilágított mód** 
-- **63.	Grádiens megvilágított mód**
-- **64.	Maximum mód**
-- **65.	Minimum mód**
-- **66.	X-ray mód**
+- **60.	Felszíni (textúra) mód /Surface texture/:** Ultrahang - A felszín szöveti módon kerül ábrázolásra
+- **61.	Felületi (elmosott) mód:** Ultrahang - A felszín kisimított, felszíni módban ábrázolódik.
+- **62.	Megvilágított mód:** Ultrahang - A felszín megvilágított módon kerül ábrázolásra. 
+- **63.	Grádiens megvilágított mód:** Ultrahang - A felszín, mintha egy pontszerű fényforrásból lenne megvilágítva.
+- **64.	Maximum mód:** Ultrahang - Legnagyobb szürkeérték ábrázolása: csontstruktúrák.
+- **65.	Minimum mód:** Ultrahang - Legkisebb szürkeértékek ábrázolása: erek, folyadékkal telt üregek.
+- **66.	X-ray mód:** Ultrahang - Osszes szürkeérték ábrázolása: szövetszaporulatok.
 - **67.	Transrectalis 3D vizsgálat**
 - **68.	Transvaginalis  3D vizsgálat**
 - **69.	Huygens elv**
 - **70.	Huygens-Fresnel elv**
 - **71.	diffrakció**
-- **72.	Airy korong**
-- **73.	Airy minta**
+- **72.	Airy korong:** fénynyalábot nem lehet minden határon túl fókuszálni => egy elemi tárgypont képe elmosódott lesz => Airy korong => felbontás limit. Ez a legjobban fokuszalt pont.
+- **73.	Airy minta:** Ha feny athalad egy nyilason mindig valamilyen mertekben meg fog torni. Igy a leheto legjobban fokuszalt pont kore is fog szorodni. Ezer nem lehet egy vegtelen kis pontba fokuszalni.
 - **74.	PSF: Point Spread Functions**
 - **75.	Rayleigh kritérium**
 - **76.	Dawes kritérium**
 - **77.	szuperrezolúció**
-- **78.	Numerikus Apertúra**
-- **79.	Térbeli felbontás**
-- **80.	diffrakciós minta**
-- **81.	Nyquist kritérium**
+- **78.	Numerikus Apertúra:** A numerikus apertúra az optikai lencserendszerek fénygyűjtő képességének egység nélküli mérőszáma
+- **79.	Térbeli felbontás:** A ternek az a legkisebb egysege amit meg meg tudunk kulonboztetni a levetult kepen.
+- **80.	diffrakciós minta:** Ha egy hullam nyilason halad at, akkor megtorik es szorodik. Mintazat fog kirajzolodni a levetulesen, amik maximum es minimum erositesu helyek.
+- **81.	Nyquist kritérium:** A felnyitott rendszernek nincs pizitiv valos reszu polusa, akkor stabil a zart rendszer.
 - **82.	Modulációs átviteli függvény - MTF**
 - **83.	Kondenzor apertúra**
 *ezek kimaradtak:*
