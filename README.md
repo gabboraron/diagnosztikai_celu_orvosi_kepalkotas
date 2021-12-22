@@ -123,7 +123,7 @@ http://www.impactscan.org/#ctdose
 
 Radon találta ki 1917-ben
 
-Egy testet `n` irányból lövünk meg röntgen sugárral ami `n` db egyenletet sé `n-1` ismeretlent jelentjelent a mi esetünkben tehát a feladat megoldható.
+Egy testet `n` irányból lövünk meg röntgen sugárral ami `n` db egyenletet és `n-1` ismeretlent jelent a mi esetünkben tehát a feladat megoldható.
 
 ![Handsfield unit](https://ars.els-cdn.com/content/image/1-s2.0-B9780444534859000015-f01-01-9780444534859.jpg)
 
@@ -140,8 +140,8 @@ A tomogramm egy sugárgyengítési együtthatóval csinál egy képet, a sok ké
 
 A 3D képhez minden 2D képen keresünk közös beazonosítható közös pontot, hogy térbeli koordinátát nyerjünk.
 
-Röntgennél a röntgencsőből a sugárkapunk lépnek ki a sugarak ahol tudjuk változtatni a sugár irányát és nagyságát.
-- oszcintillációs: a detektor ért sugarak felvillanásokat okoznak a fotodetektorral ezt érzékelik. Jellemzői a mechanikai stabilitás, kis méret, alacsony tápfeszültség, modulárisan cserélhető.
+Röntgennél a röntgencsőből a sugárkapun keresztül lépnek ki a sugarak ahol tudjuk változtatni a sugár irányát és nagyságát.
+- oszcintillációs: a detektort ért sugarak felvillanásokat okoznak a fotodetektorral ezt érzékelik. Jellemzői a mechanikai stabilitás, kis méret, alacsony tápfeszültség, modulárisan cserélhető.
 - ionizációs detektorok:
   - nemesgáz töltés esetén az ionizált gáz áramot gerjeszt és a keletkező jelenséget rögzíthetjük.
 
@@ -162,7 +162,7 @@ Képminőség:
 - fantomokkal mérhető, hogy jól van-e bekalibrálva, térbeli speciális fantommal mérik
 - vonalpár/cm
 - függ:
-  -  a detektor méretétpt
+  - a detektor méretétől
   - a páciens méretétől, mert változik a fókuszpont
 
 #### CT generációk
@@ -170,11 +170,11 @@ Képminőség:
 
 > minőségi vizsonyokról ad visszacsatolást
 
->**1. gen CT***
+>**1. gen CT**
 >
 > csak két párhuzamos röntgen detektor, végigszkennelte, arrépp ment
 > 
-> ![1st gen ct](https://radiologykey.com/wp-content/uploads/2016/02/B9780323069748100165_f16-03ad-9780323069748.jpg)
+> ![1st gen ct](http://www.impactscan.org/slides/impactcourse/basic_principles_of_ct/img24.gif)
 
 > **2. gen CT**
 > 
@@ -227,7 +227,7 @@ Hidrogén protonokat egy irányba állítunk amiket ha bárhol megváltoztatunk 
 
 > Nagy mágnesességű (tesla nagyság) párhuzamos elektormágnes tekercsekkel létrehozunk egy elektromágneses mezőt, ahol a szövetben levő hidrogén atomok protonjait egy irányba rendezzük (hidrogén mag polarizálása) homogén mágneses mező létrehozásával. Ugyanis a protonok mágneses térben képesek elektromágneses energiát befogadni és kiadni ellenben nyugalmi állapotban a protonok mágneses tulajdonsága véletlen eloszlású.
 > 
-> E mellett egy gyengébb, időben változó (1 kHz nagyságrendű), téri kódoláshoz szükséges, ún. gradiens mezőt is létrehozunk. E mellett egy gyenge rádiófrekvenciás (RF) mező, mely egy RF antennán keresztül összegyűjthető, mérhető jelek produkálását lehetővé tevő manipulációjára képes a hidrogénmagoknak. Ezek a mágneses térre merőletges jelek, melyek kitérítik a protonokat. A gerjesztés után (adott Hz H:64) mérhetőek a kitérés (elektromágneses energia leadásának) komponensei
+> E mellett egy gyengébb, időben változó (1 kHz nagyságrendű), térbeli kódoláshoz szükséges, ún. gradiens mezőt is létrehozunk. E mellett egy gyenge rádiófrekvenciás (RF) mező, mely egy RF antennán keresztül összegyűjthető, mérhető jelek produkálását lehetővé tevő manipulációjára képes a hidrogénmagoknak. Ezek a mágneses térre merőleges jelek, melyek kitérítik a protonokat. A gerjesztés után (adott Hz H:64) mérhetőek a kitérés (elektromágneses energia leadásának) komponensei
 >
 > A három gradiens tekercs a főbb irányok felé van állítva, így létrejön a térbeli lefedettség.
 > 
@@ -278,10 +278,10 @@ mobil MRI készülék https://hyperfine.io/
 
 # OCT
 ![OCT VS MRI VS CT](http://obel.ee.uwa.edu.au/wp-content/uploads/2015/01/Fig_3_OCTcomparison.png)
+
 használt:
 - bőrgyógyászatban
 - megtudom mondani melyik irányban áramlik a vér
-- 
 
 > fény alapú koherens tomográfia
 > 
@@ -294,7 +294,7 @@ használt:
 > 4-5mm mélyen mérhető a szövet
 >
 > - erő és távolság mérésre is használható, az üveg (*amiben megy a jel*) törési mutatójának segíŧségével
-> - amikor a szemben a nyomás lecsökken beomlik a retina és részleges vaksáág áll elő
+> - amikor a szemben a nyomás lecsökken beomlik a retina és részleges vakság áll elő
 >   - ekkor egy trombózis állhat elő ami a szem hajszálér hálózatában áll elő, és az azt övező rész elhal
 >     - ez vérhígitóval enyhíthető, 15 - 20 um
 
@@ -330,20 +330,20 @@ használt:
 - kvantitatív és kvalitatív szerv morfológiát lehet vele nézni;
 - nem invazív
 - nincs káros biológiai hatása
-- a szövet áteresztőkpességén / törésmutatóján múlik az ltrahang működőképessége, ez levegeőben rossz, ezért pl tüdőt/csontot nem lehet
+- a szövet áteresztőkpességén / törésmutatóján múlik az ultrahang működőképessége, ez levegeőben rossz, ezért pl tüdőt/csontot nem lehet
 - a képben keletkező levegőbuborékok a műtermékek
-- külöünféle ultrahang vizsgálatnál különféle fejekkel különböző mélységig vizsgálni a szövetben, így egy tárgy-transducer távolság kétszeresét nézzzük
+- külöünféle ultrahang vizsgálatnál különféle fejekkel különböző mélységig vizsgálni a szövetben, így egy tárgy-transducer távolság kétszeresét nézzük
 
 ![](http://www.sprawls.org/ppmi2/USPRO/usimage2.JPG)
 
-A hagnhullámnál mini terjedések kezdenek kialakulni.
+A hanghullámnál mini terjedések kezdenek kialakulni.
 mindezt egy piezoelektomos jellel tudom megtenni.
 
 Az oszcilloszkópon megjelenik a visszajövő jel az A scan
 
 A térrész minden eleméhez rendelek egy értéket és attól függően mikor ér vissza onnan a jel adok hozzá színt 0-255 tartományon. a legmesszebbi a legsötétebb a legközelebbi a fehér. Ez a **B mód**.
 
-Ha több B módú scant öszetsszük kapjuk az Mmódút.
+Ha több `B módú` scant összetesszük kapjuk az `M-módú`t.
 
 Dopler hatáson alapszik, így akár folyamatokat is láthatunk, hogy merre folyik a vér.
 - ha kiküldök egy frekvenciát és a visszapattanó nagyobb akkor jön fleém
@@ -351,7 +351,7 @@ Dopler hatáson alapszik, így akár folyamatokat is láthatunk, hogy merre foly
 
 https://piurimaging.com/
 
-- felsíni, textúra mód
+- felszíni, textúra mód
 - elmosott mód
 - megvilágított mód
 - maximum/minmum mód
@@ -386,7 +386,7 @@ http://mesterandras.hu/wp-content/uploads/2020/03/Geom_optikalencsek-1.pdf
 ### lencse tulajdonságai
 https://docplayer.hu/43658178-Optika-gombtukrok-kepalkotasa-lekepezesi-hibak-dr-seres-istvan.html
 - törésmutatója
-- numerikus pertúra: a lecse fénygyűjtő képessége, jele *NA*, az olajé a legjobb
+- numerikus apertúra: a lecse fénygyűjtő képessége, jele *NA*, az olajé a legjobb
 - felbontása, jele *`d = lambda/2*NA`[~micro m]*
 - mélységélesség *z-tartomány*
 - látómező: megvilágított kör szemlencsében [~mm]
@@ -398,14 +398,14 @@ https://docplayer.hu/43658178-Optika-gombtukrok-kepalkotasa-lekepezesi-hibak-dr-
   a lencse nem meg  fókuszpontba öszpontosít
 - kromatikus aberráció: ![kromatikus aberráció](https://digiretus.hu/wp-content/uploads/2017/12/photoshop-szinhiba-eltavolitasa-6.jpg)
   másképp töri meg a fénysugarakat, és a színek kettéválnak
-  **javítása: ** a lencse állíása mert nem jó pontban van
+  **javítása:** a lencse állíása mert nem jó pontban van
 - képmezőelhajlás/mezgörbület
   ![képmezőelhajlás](https://docplayer.hu/docs-images/59/43658178/images/21-0.png)
-  **javítása: ** digitálisan szoorzzuk egy korrekciós mátrixszal
+  **javítása:** digitálisan szorzzuk egy korrekciós mátrixszal
 - asztigmatizmus ![asztigmatizmus](http://autosjatekok.co.hu/images/lts-lesen-esett-az-asztigmatizmus.jpg)
-  **javítása: ** növeljük a látómezőt
+  **javítása:** növeljük a látómezőt
 - üstököshiba: ![üstököshiba](https://cdn-60a62604c1ac1c1d10df7525.closte.com/wp-content/uploads/sites/321/2010/12/v_o_koma_hiba.png)
-  **javítása: ** több lencsét tudunk használni
+  **javítása:** több lencsét tudunk használni
 
 ## nagyfelbontású fénymikroszkópia I.
 - Lézer: koncentrált fénnyaláb, leadja az energiatöbbletet, ezt kezeljük fotonként,
@@ -413,16 +413,16 @@ A fény mindenképpp szinuszosan moszog!
 
 Hullmámhossz egyensen arányos a frekvenciával.
  
-**Huygens elv:** körhullám -> hullámtér -> minden egye pont egy-egy egyedi hullámforssának tekinthető -> ezek széle egy gömbhullám amin van a hullámgörbe
+**Huygens elv:** körhullám -> hullámtér -> minden egyes pont egy-egy egyedi hullámforásnak tekinthető -> ezek széle egy gömbhullám amin van a hullámgörbe
 
-**Fresnel elv:** ezek a köthulllámok interferálnak, és ezeke eredője adja meg milyen az egész fényünk.
+**Fresnel elv:** ezek a köthulllámok interferálnak, és ezek eredője adja meg milyen az egész fényünk.
 
 Étendue: geometriai kiterjedés.
          - https://en.wikipedia.org/wiki/Etendue
 
-**fázis konjugált tükrök: ** visszatükrözi sé folymatosan normalizálja az Étenduet
+**fázis konjugált tükrök:** visszatükrözi és folymatosan normalizálja az Étenduet
 
-Festési eljárások:
+**Festési eljárások:**
 - hematoxifin: mivel savas ezért a sejtmagokhoz ideális
 - eosin: bázikus, pl citoplazmához való.
 
@@ -434,10 +434,10 @@ Festési eljárások:
 - Hoffmann modulációs kontraszt mikroszkóp: aaz aperturán lévő lyukakkal állítja a éfny mennyiségét, és így csökkenti a glória hatást.
 - fázisrárgy: a féyn amplitúdóján lehet ávltoztatni, ezzel fáziskontraszt mikroszkópot alakíthatnunk ki, át állítjuk a fény mennnyisgét, a kondenzátor egységesíti, de a fázisát beállíottuk, így csak a kontúrok jelennek meg.
 
-**sötétlátóteres mikrszkóp:** kolloid mintáknál lehet használni, tegár kéepsek a fényt szórni, és mi ezt a szórt féynt látjuk a végén. Mindent mai mikrométers tartományba esik és festetlen alalmas rá.
+**sötétlátóteres mikrszkóp:** kolloid mintáknál lehet használni, tegár képesek a fényt szórni, és mi ezt a szórt fényt látjuk a végén. Mindent mai mikrométers tartományba esik és festetlen alkalmas rá.
 
 ## mediso
-egyedül nekik van 3 fejő MRük
+egyedül nekik van 3 fejő MRIük
 
 a spektnél a adott keresett problémához igazítjuk az izotópot ami a leginkább reagál az adott valamire.
 
@@ -458,7 +458,7 @@ egy spekt felvétel 25-40 percig tart a valóságban
 > - *adszorció:* csak a felületén képes anyagokat megkötni
 > - *abszorció:* az anyag mélyében is képesek vagyunk megkötni az anyagot <- *fluoereszcencia*
 >
-> 1. *dichroicus* tükörrel megtörjük a fényt de csak az adott hullámhosszon, amit egy *excitation* szűrővel szűrünk, visszajuttatjuk a tükörnek az objektí@en keresztül majd a másik hullámhosszon amit már a tükör átenged és ez jut az oculárba.
+> 1. *dichroicus* tükörrel megtörjük a fényt de csak az adott hullámhosszon, amit egy *excitation* szűrővel szűrünk, visszajuttatjuk a tükörnek az objektíven keresztül majd a másik hullámhosszon amit már a tükör átenged és ez jut az oculárba.
 > 2. szelektív megjelenés + emissziós szűrő -> jó kontraszt -> specifikus megfigyelhetőség
 >    **előnye**: jól színezhető
 
@@ -476,20 +476,20 @@ egy spekt felvétel 25-40 percig tart a valóságban
 > - diffrakciós limit átlépése: ![The Abbe diffraction limit for a microscope](https://wikimedia.org/api/rest_v1/media/math/render/svg/2a4dfa1f30e4a718d5c4573d5bdac3fd96e248fb)
 
 ### Konfokális mikroszkóp
-> **Lumineszencia:** gerjesztés után elindul a relaksázciós folyamat
+> **Lumineszencia:** gerjesztés után elindul a relaxációs folyamat
 >
-> **foszfor esszencia:** olyan állapotokba is belép az leketron amikbe ha önmagában lenne nem lépne be.
+> **foszfor esszencia:** olyan állapotokba is belép az eleketron amikbe ha önmagában lenne nem lépne be.
 >
 > ![konfokális mikroszkóp](https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Confocalprinciple_in_English.svg/1024px-Confocalprinciple_in_English.svg.png)
 >
 > Ezzel kiküszöböljük a nem képsíkból érkező nyalábokat. Ezért pásztáznunk kell, mivel ekkor egy pontból kapunk fénnyalábokat.
 >
 > - vízszintes ~ 200 nm
-> - függőleges ~ 500 nm -> baktérium vírsu vizsgálata
+> - függőleges ~ 500 nm -> baktérium vírus vizsgálata
 > -> xy-síkszilárd 
 
-### STED: Stimulált emissziós kioltáso mikrozkóp
-> Kontra fényeketi nddítunk melyek hullámhossza kioltja a megjelenő fényt és ezzel pásztázunk így az adott ponthoz pontos értéket tudunk mondani.
+### STED: Stimulált emissziós kioltásos mikroszkóp
+> Kontra fényeket indítunk melyek hullámhossza kioltja a megjelenő fényt és ezzel pásztázunk így az adott ponthoz pontos értéket tudunk mondani.
 >
 > a fény hullámhossza úgy van belőve, hogy más sejteket ne lássunk.
 >
@@ -504,14 +504,14 @@ egy spekt felvétel 25-40 percig tart a valóságban
 >
 > STM = Scanning Tunneling Microsckope (elektron)
 >
-> Alapjelenség: alagút effektus: szubnanonméteres távolságra levő potenciál különbséggel rendlekező pontok között az elektronok csak egy nagy valószínűséggel jellemzett "scatornán" keresztül közledhetnek
+> **Alapjelenség:** alagút effektus: szubnanonméteres távolságra levő potenciál különbséggel rendelkező pontok között az elektronok csak egy nagy valószínűséggel jellemzett "csatornán" keresztül közlekedhetnek
 >
-> működés: feszültséget adunk a rendszerre, ezért a minta elkezd mozogni, a mintára lézerfényt vetítünk, ami visszaverődik egy tükörre amin mérjk a fény mennyiségét, és így tudjuk mérni a fizikai felületünk felszínét.
+> **működés:** feszültséget adunk a rendszerre, ezért a minta elkezd mozogni, a mintára lézerfényt vetítünk, ami visszaverődik egy tükörre amin mérjük a fény mennyiségét, és így tudjuk mérni a fizikai felületünk felszínét.
 >
 > felbontás: ~ 1nm -> molekulák szintje
 
 ## Digitális mikroszkópia III.
-> Képalkotás érzékelt jelek feldolgozásával alkaítunk ki látzható digitális képeket
+> Képalkotás érzékelt jelek feldolgozásával alkaítunk ki látható digitális képeket
 >
 > képfeldolgozás a kialakított kép sajátosságait módosítás szűrés keresés elemzés
 >
@@ -533,7 +533,7 @@ egy spekt felvétel 25-40 percig tart a valóságban
 > **Hibák a képalkotásban** ugyanúgy lehetséges mint [korábban](https://github.com/gabboraron/diagnosztikai_celu_orvosi_kepalkotas#lencse-tulajdons%C3%A1gai)
 > - alulmintázás is történhet egy változó rendszerből: Nyquist-kritérium
 > - [Hisztogram](https://github.com/gabboraron/szamitogepes_kepfeldolgozas#hisztogram) pixel fényesség eloszlás
-> - alacsoiny bitmélység: kvantáláskor
+> - alacsony bitmélység: kvantáláskor
 > - adott pixel intenzitás mennyi bittel írható le, kontraszt elveszhet, javítás: több biten tárolunk.
 
 ## 0,1 THz inpulzusos sugárzás mérés
@@ -788,7 +788,7 @@ visszavert féyn alapján képalkotás
 > -  
 
 #### 3. A NIRS alapú vizsgálatok típusai
->
+> ![NIRS](https://www.researchgate.net/publication/341805968/figure/fig1/AS:899134651392001@1591381814410/ERP-and-near-infrared-spectroscopy-NIRS-measurement-system-EEG-was-measured-at-T3-and.png)
 
 #### 4. A NIRS berendezések általános belső működése 
 > https://www.youtube.com/watch?v=Dj-X1t5pXvQ&feature=youtu.be
