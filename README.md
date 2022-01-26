@@ -200,6 +200,7 @@ Képminőség:
 ## CTA (computed tomography angiography)
 CT amivel ereket figylenek meg.
 - kontraszt anyagos CT
+![CTA image](https://ars.els-cdn.com/content/image/1-s2.0-S0735109720359659-gr2.jpg)
 
 Sugárterhelése (mSv-ben):
 - CT koponya - 3.8
