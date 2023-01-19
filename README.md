@@ -63,7 +63,7 @@ A [top 500 szuperszámítógép](https://www.top500.org) amik önálló hálóza
 - három alap színnel mait maxwell kitalált
 
 digitális képen:
-- digitek/kvantált sázmjegyek írják le
+- digitek/kvantált számjegyek írják le
 - 2d kép elemi egyésge a pixel
 - felbontás: kép méret (szélességx hosszúság pixelben)
 - színmélység bitben mérve
@@ -83,9 +83,12 @@ beadndóhoz:
 
 ## EA-GY2
 ### Röntgen (Rtg)
-Már a polgárháborúban is használták.
+Nagyon korán feltalálása után megkezdték használatát. *([[1]](https://www.kumc.edu/school-of-medicine/academics/departments/history-and-philosophy-of-medicine/archives/wwi/base-hospital-28/clinical-services/radiology.html) [[2]](https://en.wikipedia.org/wiki/X-ray#History))*
 
-[NIBIB gov - How Do X-rays Work? ](https://www.youtube.com/watch?v=hTz_rGP4v9Y)
+gyors összefoglalás: [NIBIB gov - How Do X-rays Work? ](https://www.youtube.com/watch?v=hTz_rGP4v9Y)
+
+#### Alapelv
+A röntgen hullámok a test nagy részén áthatolnak, de vannak olyan részek amik a röntgenhullámot elnyelik vagy megtörik. Ilyen a kalcium is.
 
 ![röntgen spektrumok](https://www.biolegend.com/Files/Images/BioLegend/blog/100814blog/Spectrum.png)
 
@@ -99,9 +102,11 @@ A `kilépő sugárintenzitás = belépő sugárzás * anyag sugárzási együtth
 
 A kollimátor használatótól függően meg tudjuk változtatni a sugárnyaláb méretét és kiterjedését is ![tipikus röntgen szögek anód esetén](https://www.mta-r.de/site/assets/files/9355/fig_5_6.png)
 
-Ahol van szövet ott kisebb intenzitással megy át, ahol nincs ott nagyobbal.
+Ahol van szövet ott kisebb színintenzitással megy át, ahol nincs ott nagyobbal. Ahol, áthalad ott a szövetek elnyelik a sugárzást, a fenti képlet értékében, így az elnyelés végső mértéke összegződik. Ez a szummációs felvétel.
 
 ![the five main daiodensities ona standard radiograph](https://veteriankey.com/wp-content/uploads/2016/05/B9781455703647000053_f005-002-9781455703647.jpg)
+
+Éppen ezért, néhány röntgenvizsgálathoz kontrasztanyag használata is szükséges lehet, melyet intravénásan, belélegezve vagy nyeléssel juttatnak a páciens szervezetébe. A kontrasztanyag általában valamilyen jódtartalmú vegyület, mely a röntgenfelvételen jól kirajzolja az általa elfoglalt teret a testben. A kontrasztanyagos vizsgálat előtt fontos tájékoztatni a szakembereket a kontrasztanyaggal szembeni allergiáról, illetve fennálló vesebetegségről.
 
 Az infra fény áthatol a szöveten.
 
@@ -113,13 +118,21 @@ Az infra fény áthatol a szöveten.
 
 > Egy röntgencső a legegyszerűbb kivitelnél egy katódból és egy anódból áll, amik egy üvegburában vannak légmentesen lezárva.
 
-## Computer tomográfia (CT)
-http://www.impactscan.org/#ctdose
-> gyakorlatilag röntgen
+#### kiértékelése, felhasználása
+- https://youtu.be/3Ok6wIiu0zk
+- a 2D röntgen kép tükrözött
+- látszanak rajta a légbuborékok is
+- törések, ficamok, sérülések, gyulladások, elváltozások vizsgálatához (például: mellkasröntgen, fogászati röntgen, mammográfia). - https://egeszsegvonal.gov.hu/r/714-rontgenvizsgalat.html?
 
-**használható:**
-- MRI-vel
-- PET-tel
+## Computer tomográfia (CT)
+- http://www.impactscan.org/#ctdose
+- https://egeszsegvonal.gov.hu/c-cs/648-ct-vizsgalat.html
+
+> gyakorlatilag röntgen
+> 
+> **használható:**
+> - MRI-vel
+> - PET-tel
 
 Radon találta ki 1917-ben
 
