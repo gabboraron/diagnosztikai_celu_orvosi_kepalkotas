@@ -83,28 +83,42 @@ beadndóhoz:
 
 ## EA-GY2
 ### Röntgen (Rtg)
-Nagyon korán feltalálása után megkezdték használatát. *([[1]](https://www.kumc.edu/school-of-medicine/academics/departments/history-and-philosophy-of-medicine/archives/wwi/base-hospital-28/clinical-services/radiology.html) [[2]](https://en.wikipedia.org/wiki/X-ray#History))*
+Egyéb források röntgen téren: 
+- https://medlineplus.gov/xrays.html
+- https://www.mayoclinic.org/tests-procedures/x-ray/about/pac-20395303
+- https://tech.snmjournals.org/content/32/3/139
+Egyéb források röntgencső téren:
+- https://www.britannica.com/technology/X-ray-tube
+- https://radiopaedia.org/articles/x-ray-tube-1
+- http://www.elektroncso.hu/cikkek/xray.php
+- https://medicalimaginghelp.blog.hu/2019/09/12/rontgencso_i
 
-gyors összefoglalás: [NIBIB gov - How Do X-rays Work? ](https://www.youtube.com/watch?v=hTz_rGP4v9Y)
+Nagyon korán feltalálása után megkezdték használatát. *([[1]](https://www.kumc.edu/school-of-medicine/academics/departments/history-and-philosophy-of-medicine/archives/wwi/base-hospital-28/clinical-services/radiology.html) [[2]](https://en.wikipedia.org/wiki/X-ray#History))* Kifejleszétse nem csak Röntgen, de Lénárd Fülöphöz is köthető.
+
+Gyors összefoglalás: [NIBIB gov - How Do X-rays Work? ](https://www.youtube.com/watch?v=hTz_rGP4v9Y)
 
 #### Alapelv
 A röntgen hullámok a test nagy részén áthatolnak, de vannak olyan részek amik a röntgenhullámot elnyelik vagy megtörik. Ilyen a kalcium is.
 
 ![röntgen spektrumok](https://www.biolegend.com/Files/Images/BioLegend/blog/100814blog/Spectrum.png)
 
-egy sugarat kilövünk és azt mérjük, hogy hogyan csapódik be az atomokba és ott hogy törik meg, milyen "árnyékot" ad, a külféle spektrumokat könfélre finomságon használjuk.
+Egy sugarat kilövünk és azt mérjük, hogy hogyan csapódik be az atomokba és ott hogy törik meg, milyen "árnyékot" ad, a külféle spektrumokat könfélre finomságon használjuk.
 
-Két vezetéket használvva ha az egyikbe nagy feszültséget kötünk akkor átvándorol a másikra, így mikor ezt bekapcsolva hagyta Röntgen, és azt próbálva jutott arra, hogy az anyagoknak van sugárzási együtthatója.
+Két vezetéket használva ha az egyikbe nagy feszültséget kötünk akkor átvándorol a másikra, így mikor ezt bekapcsolva hagyta Röntgen, és azt próbálva jutott arra, hogy az anyagoknak van sugárzási együtthatója.
 
-A `kilépő sugárintenzitás = belépő sugárzás * anyag sugárzási együtthatója ^ (sugárgyengítési együttható * anyag_vastagság)` 
+> A `kilépő sugárintenzitás = belépő sugárzás * anyag sugárzási együtthatója ^ (sugárgyengítési együttható * anyag_vastagság)` 
 
 [How does an X-ray Tube Work (Radiation Protection)](http://www.youtube.com/watch?v=Bc0eOjWkxpU)
 
-A kollimátor használatótól függően meg tudjuk változtatni a sugárnyaláb méretét és kiterjedését is ![tipikus röntgen szögek anód esetén](https://www.mta-r.de/site/assets/files/9355/fig_5_6.png)
+A kollimátor használatótól függően meg tudjuk változtatni a sugárnyaláb méretét és kiterjedését is 
 
-Ahol van szövet ott kisebb színintenzitással megy át, ahol nincs ott nagyobbal. Ahol, áthalad ott a szövetek elnyelik a sugárzást, a fenti képlet értékében, így az elnyelés végső mértéke összegződik. Ez a szummációs felvétel.
+| ![tipikus röntgen szögek anód esetén](https://www.mta-r.de/site/assets/files/9355/fig_5_6.png) | ![https://tech.snmjournals.org/content/32/3/139](https://tech.snmjournals.org/content/jnmt/32/3/139/F3.large.jpg) |
+| --- | ---- |
 
-![the five main daiodensities ona standard radiograph](https://veteriankey.com/wp-content/uploads/2016/05/B9781455703647000053_f005-002-9781455703647.jpg)
+Ahol van szövet ott kisebb színintenzitással megy át, ahol nincs ott nagyobbal. Ahol, áthalad ott a szövetek elnyelik a sugárzást, a fenti képlet értékében, így az elnyelés végső mértéke összegződik. Ez a szummációs felvétel. Éppen ezért használható pl csontritkulás megállapítására is. [*- medlineplus -*](https://medlineplus.gov/lab-tests/bone-density-scan/)
+
+| ![the five main daiodensities ona standard radiograph](https://veteriankey.com/wp-content/uploads/2016/05/B9781455703647000053_f005-002-9781455703647.jpg) | ![electric and magnetic waves are perpendicular](https://tech.snmjournals.org/content/jnmt/32/3/139/F1.medium.gif) |
+| --- | --- | 
 
 Éppen ezért, néhány röntgenvizsgálathoz kontrasztanyag használata is szükséges lehet, melyet intravénásan, belélegezve vagy nyeléssel juttatnak a páciens szervezetébe. A kontrasztanyag általában valamilyen jódtartalmú vegyület, mely a röntgenfelvételen jól kirajzolja az általa elfoglalt teret a testben. A kontrasztanyagos vizsgálat előtt fontos tájékoztatni a szakembereket a kontrasztanyaggal szembeni allergiáról, illetve fennálló vesebetegségről.
 
@@ -116,13 +130,27 @@ Az infra fény áthatol a szöveten.
 - Fluoroscopy (kontrasztos)
 - Radiation therapy in cancer treatment
 
-> Egy röntgencső a legegyszerűbb kivitelnél egy katódból és egy anódból áll, amik egy üvegburában vannak légmentesen lezárva.
+> A röntgen legegyszerűbb előállítási formája a [röntgencső](http://oftankonyv.reak.bme.hu/tiki-index.php?page=R%C3%B6ntgencs%C5%91&structure=Book+for+fisics&no_bl=y). 
+> 
+> Egy röntgencső a legegyszerűbb kivitelnél egy katódból és egy anódból áll, amik egy üvegburában vannak légmentesen lezárva. Vákuum azért szükséges mert ha  túl gyakori az ütközés, akkor már nem fognak tudni az elektronok megfelelő sebességre jutni ahhoz, hogy röntgensugárzás jöjjön létre. 
+> 
+> A katód a negatív pólus. Itt alakul ki az elektronfelhő, hő hatására. Az elektronfelhőből elindulnak az elektronok a nagyfeszültség megegyőző ereje miatt az anód felé. A katódszerkezet állítja megfelelő irányba az elektron sokaságot = az anód megfelelő részére. A katód egy wolfram tekercs. A tekercs/szál hossza és átmérője befolyásolja a készült kép minőségét!
+> 
+> ![bővebben: https://medicalimaginghelp.blog.hu/2019/09/12/rontgencso_i](https://m.blog.hu/me/medicalimaginghelp/image/crt_rontgencsoaa.gif)
+> 
+> A katódszál elektromos ellenállása miatt hő fejlődik. Emiatt pedig elektronfelhő jön létre. Hozzávetőlegesen 2200 ºC felett jelentkezik a termoionikus hatás a wolframszálban. Emiatt az elektronok elhagyják a katódot, majd nagyfeszültség hatására elindulnak az anód felé. Az anódba csapódva legnagyobb részük visszatér az áramkörbe.
+> 
+> Első kísérleti kisülési csöveinél az X-sugárzás keletkezési helyén a katóddal szembeni üvegfalon zöld fluoreszcens fényjelenség megfigyelhető. 
+> 
+
+
 
 #### kiértékelése, felhasználása
 - https://youtu.be/3Ok6wIiu0zk
 - a 2D röntgen kép tükrözött
 - látszanak rajta a légbuborékok is
-- törések, ficamok, sérülések, gyulladások, elváltozások vizsgálatához (például: mellkasröntgen, fogászati röntgen, mammográfia). - https://egeszsegvonal.gov.hu/r/714-rontgenvizsgalat.html?
+- törések, ficamok, sérülések, gyulladások, elváltozások vizsgálatához (például: mellkasröntgen, fogászati röntgen, mammográfia). 
+- https://egeszsegvonal.gov.hu/r/714-rontgenvizsgalat.html?
 
 ## Computer tomográfia (CT)
 - http://www.impactscan.org/#ctdose
