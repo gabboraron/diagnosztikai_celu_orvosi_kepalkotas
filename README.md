@@ -205,7 +205,8 @@ Röntgennél a röntgencsőből a sugárkapun keresztül lépnek ki a sugarak ah
 
 | röntgen       | CT           |
 | ------------- |-------------|
-| rosszabb térbeli felbontás      | lényegesen jobb kontrasztfelbontás |
+|     |rosszabb térbeli felbontás, lényegesen jobb kontrasztfelbontás |
+| 2D | 3D |
 | csont törés kimutatása, csontritkulás | vérrögök, törések, szervi károsodások | 
 | gyorsabb | lassabb mint a röntgen de még mindig elégy gyors, hogy sürgősségi eljáráshoz használják |
 | - | nagyobb sugárterhelés mivel több kép készül |
@@ -244,8 +245,9 @@ Képminőség:
 >
 > - több mint 800 detektor, tlejes testes besugárzás, forog a test körül a fej.
 > - röntgencső és detektor mechanikailag egybefüggő egység
-> => egy rossz pixel egy teljes kört alkot a kész képen amit eliminálni kell
-> - a sugárforrás és a adetektorok is forognak
+> => egy rossz pixel egy teljes kört alkot a kész képen amit eliminálni kell <- ez a beackprojection hiba
+> 
+> - a sugárforrás és a detektorok is forognak
 > 
 > ![3th gen ct](http://www.impactscan.org/slides/impactcourse/basic_principles_of_ct/img26.gif)
 >
@@ -280,14 +282,23 @@ Sugárterhelése (mSv-ben):
 A Föld népessége  átlagosan évente 2,4 mSV sugárterhelést kap
 
 # MRI
-> http://mriquestions.com/index.html
+> - http://mriquestions.com/index.html
+> - https://egeszsegvonal.gov.hu/m/877-mr-vizsgalat.html
+> - http://oftankonyv.reak.bme.hu/tiki-index.php?page=MRI+posztgrad&structure=Orvosi_Posztgradu%C3%A1lis
+> - https://www.hopkinsmedicine.org/health/treatment-tests-and-therapies/magnetic-resonance-imaging-mri
+
+röviden: https://www.youtube.com/watch?v=1CGzk-nV06g
+
+hosszabban: 
+- [YouTube - How MRI Works - Part 1 - NMR Basics ](https://www.youtube.com/watch?v=TQegSF4ZiIQ) 
+- [YouTube - How MRI Works - Part 2 - The Spin Echo ](https://www.youtube.com/watch?v=M7yh0To6Wbs) 
+- [YouTube -  How MRI Works - Part 3 - Fourier Transform and K-Space ](https://www.youtube.com/watch?v=R_4GuyJTzMo)
 
 Hidrogén protonokat egy irányba állítunk amiket ha bárhol megváltoztatunk akkor az feltűnő lesz, ezt egy sugárral és egy rf antennával érzékelhetem
 - homogén mágneses tér
 - alagút típusúba betesszük a mukit vagy félig nyitottnál nem olyan jó a képmínőség. Alagútasnál 1; 1,5; 3; 7 teslásat is előállíthatunk.
 
-![mri szerkezet](https://mersz.hu/mod/object.php?objazonosito=m538it_541_i1_idx)
-![mri szerkezete 2](https://cms.sulinet.hu/get/d/45d45d68-1d9c-4e3f-ab81-6c3715093917/1/1/b/Normal/normal.png)
+<img src="https://mersz.hu/mod/object.php?objazonosito=m538it_541_i1_idx" alt="mri gép" width=50% height=50% ><img src="https://cms.sulinet.hu/get/d/45d45d68-1d9c-4e3f-ab81-6c3715093917/1/1/b/Normal/normal.png" width=50% height=50% alt="mri szekezete">
 
 ![mri struct](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1G0xq7rXmsuFvTqW8tQ5Pjtdun1y9x8_OOQ&usqp=CAU)
 
@@ -298,6 +309,8 @@ Hidrogén protonokat egy irányba állítunk amiket ha bárhol megváltoztatunk 
 
 > Nagy mágnesességű (tesla nagyság) párhuzamos elektormágnes tekercsekkel létrehozunk egy elektromágneses mezőt, ahol a szövetben levő hidrogén atomok protonjait egy irányba rendezzük (hidrogén mag polarizálása) homogén mágneses mező létrehozásával. Ugyanis a protonok mágneses térben képesek elektromágneses energiát befogadni és kiadni ellenben nyugalmi állapotban a protonok mágneses tulajdonsága véletlen eloszlású.
 > 
+> A befogadott energia ugyanakkor távozik amint a mágneses tér megszűnik, sőt, nem csak távozik, de a protonk vissza is rendeződnek eredeti állapotukba. A `protonok keringésnek frekvenciája = gyromgáneses_együttható * mágneses mező ` szorzatból áll össze, a keringési frekvencia másik neve *[precesszió](https://hu.wikipedia.org/wiki/Precesszi%C3%B3)*. Épp ezért befolyásolja a mágneses mező erősségének változása. Mikor a mágneses mező megszűnik a spin adott időegység alatt áll vissza az eredeti pozíciójába. Ez különbözik a különböző szövetek esetén, és ezt tudjuk mérni. Ez gyorsan történik meg pl csontok esetén, és a leglassabb a víz esetén, a szöveek vízzel való tetlítettsége befolyásolja a köztes skálát. 
+> 
 > E mellett egy gyengébb, időben változó (1 kHz nagyságrendű), térbeli kódoláshoz szükséges, ún. gradiens mezőt is létrehozunk. E mellett egy gyenge rádiófrekvenciás (RF) mező, mely egy RF antennán keresztül összegyűjthető, mérhető jelek produkálását lehetővé tevő manipulációjára képes a hidrogénmagoknak. Ezek a mágneses térre merőleges jelek, melyek kitérítik a protonokat. A gerjesztés után (adott Hz H:64) mérhetőek a kitérés (elektromágneses energia leadásának) komponensei
 >
 > A három gradiens tekercs a főbb irányok felé van állítva, így létrejön a térbeli lefedettség.
@@ -306,13 +319,26 @@ Hidrogén protonokat egy irányba állítunk amiket ha bárhol megváltoztatunk 
 > - Rádióhullámok segítségével közlünk energiát, és a kapott „visszhangot” rögzítjük
 >
 > Ezeket az adatokat vizualizálhatjuk valós vagy imaginárius értékek mentén, de fázis vagy amplitúdó alapján is lehet. Ugyanakkor a gyakorlatban ezen a ponton Fourier transzformálunk, hogy a frekvenciát elemezzük. Ezt terjeszthetjük ki 2D-be, úgy, hogy a jeleket egymás mellé téve értelmezzük, és így kapunk egy 2D szeletet. Ezt kibővítjük 3D-re tomográfiával, azaz egymás mellé tesszük a szeleket.
-
+> 
+> A kontraszton tudunk állítani ha nem azt mérjük, hogy mennyi idő után áll vissza eredeti spinbe a proton, hanem adott idő után  mérjük az aktuálisan mérhető a visszaálláskor elengedett elektronokat. Ezzel minden pont ahonnan már épp nem jön jel lehet fekete, ahol még erős ott meg fehér, és az összes többi a szürke 255 árnyalata.
+ 
+Ahogy az látható, az eljárás drága, és értelemszerűen nem alkalmazható akkor ha valamilyen fém tárgy van a testben, pl pacemaker, csont erősítő váz, börtöntetkó, exoskeleton stb.
 
 ## fMRI
-A kifejezetten agyra kitalált kontrasztos MRI.
+- https://www.radiologyinfo.org/en/info/fmribrain
+- http://fmri.ucsd.edu/Research/whatisfmri.html
+
+A kifejezetten agyra kitalált kontrasztos MRI. A vér áramlását méri az agyban. Nyilván ehhez szükség van valamilyen ingerre ami az agyi folyamatokat változtatja.
+
+röviden: https://www.youtube.com/watch?v=rJjHjnzmvDI
 
 ## DWI
-> Kiemeli azon részét az MRI-nek ahol nem jó a nedvesség.
+- https://radiopaedia.org/articles/diffusion-weighted-imaging-2
+- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5039674/
+
+> Kiemeli azon részét az MRI-nek ahol nem jó a nedvesség, tehát azt ami alapból nem reagálna kellő mértékben a mágneses sugárzásra. 
+> 
+> Brown mozgáson alapul.
 
 ## Hyperfine
 mobil MRI készülék https://hyperfine.io/
