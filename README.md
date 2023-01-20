@@ -3,18 +3,18 @@
 >
 > ***Államvizsgás tárgy!***
 > ## ZV tételek a tárgyból:
-> - Röntgen
-> - CT
-> - OCT
-> - MRI
-> - PET
-> - spektroszkopia
-> - CTI
-> - NIRS
-> - UH
-> - kép ábrázolás
-> - nagyfelbontású mikroszkópia I
-> - nagyfelbontású mikroszkópia II
+> - [Röntgen](https://github.com/gabboraron/diagnosztikai_celu_orvosi_kepalkotas#r%C3%B6ntgen-rtg)
+> - [CT](https://github.com/gabboraron/diagnosztikai_celu_orvosi_kepalkotas#computer-tomogr%C3%A1fia-ct)
+> - [OCT](https://github.com/gabboraron/diagnosztikai_celu_orvosi_kepalkotas#oct)
+> - [MRI](https://github.com/gabboraron/diagnosztikai_celu_orvosi_kepalkotas#mri)
+> - [PET](https://github.com/gabboraron/diagnosztikai_celu_orvosi_kepalkotas#pet)
+> - [spektroszkopia](https://github.com/gabboraron/diagnosztikai_celu_orvosi_kepalkotas#vispektroszk%C3%B3piaspektrometria)
+> - [CTI](https://github.com/gabboraron/diagnosztikai_celu_orvosi_kepalkotas#viicti---computerised-thermal-imaging)
+> - [NIRS](https://github.com/gabboraron/diagnosztikai_celu_orvosi_kepalkotas#viiinirs---near-infrared-spectroscopy)
+> - [UH](https://github.com/gabboraron/diagnosztikai_celu_orvosi_kepalkotas#ultrahang)
+> - [kép ábrázolás](https://github.com/gabboraron/diagnosztikai_celu_orvosi_kepalkotas#optika-mikroszk%C3%B3pia)
+> - [nagyfelbontású mikroszkópia I](https://github.com/gabboraron/diagnosztikai_celu_orvosi_kepalkotas#nagyfelbont%C3%A1s%C3%BA-f%C3%A9nymikroszk%C3%B3pia-i)
+> - [nagyfelbontású mikroszkópia II](https://github.com/gabboraron/diagnosztikai_celu_orvosi_kepalkotas#nagyfelbont%C3%A1s%C3%BA-f%C3%A9nymikroszk%C3%B3pia-ii)
 > - Digitális mikroszkópia
 
 - 2 zh
@@ -115,7 +115,7 @@ A kollimátor használatótól függően meg tudjuk változtatni a sugárnyaláb
 | ![tipikus röntgen szögek anód esetén](https://www.mta-r.de/site/assets/files/9355/fig_5_6.png) | ![https://tech.snmjournals.org/content/32/3/139](https://tech.snmjournals.org/content/jnmt/32/3/139/F3.large.jpg) |
 | --- | ---- |
 
-Ahol van szövet ott kisebb színintenzitással megy át, ahol nincs ott nagyobbal. Ahol, áthalad ott a szövetek elnyelik a sugárzást, a fenti képlet értékében, így az elnyelés végső mértéke összegződik. Ez a szummációs felvétel. Éppen ezért használható pl csontritkulás megállapítására is. [*- medlineplus -*](https://medlineplus.gov/lab-tests/bone-density-scan/)
+Ahol van szövet ott kisebb színintenzitással megy át, ahol nincs ott nagyobbal. Ahol, áthalad ott a szövetek elnyelik a sugárzást, a fenti képlet értékében, így az elnyelés végső mértéke összegződik az árnyék képen. Ez a szummációs felvétel. Éppen ezért használható pl csontritkulás megállapítására is. [*- medlineplus -*](https://medlineplus.gov/lab-tests/bone-density-scan/) De pont ezért számít a felvétel készítésének iránya is! Rosszul állítjuk be nem látszik a törés pl, mert  pont fedésben van a törött rész.
 
 | ![the five main daiodensities ona standard radiograph](https://veteriankey.com/wp-content/uploads/2016/05/B9781455703647000053_f005-002-9781455703647.jpg) | ![electric and magnetic waves are perpendicular](https://tech.snmjournals.org/content/jnmt/32/3/139/F1.medium.gif) |
 | --- | --- | 
@@ -155,6 +155,9 @@ Az infra fény áthatol a szöveten.
 ## Computer tomográfia (CT)
 - http://www.impactscan.org/#ctdose
 - https://egeszsegvonal.gov.hu/c-cs/648-ct-vizsgalat.html
+- http://oftankonyv.reak.bme.hu/tiki-index.php?page=Vizsg%C3%A1l%C3%B3elj%C3%A1r%C3%A1sok+klinikai+jelent%C5%91s%C3%A9ge+-+Computer+Tomographia
+- http://itl7.elte.hu/hlabdb/tomo/tomo.html
+- https://howradiologyworks.com/ct/
 
 > gyakorlatilag röntgen
 > 
@@ -166,16 +169,20 @@ Radon találta ki 1917-ben
 
 Egy testet `n` irányból lövünk meg röntgen sugárral ami `n` db egyenletet és `n-1` ismeretlent jelent a mi esetünkben tehát a feladat megoldható.
 
-![Handsfield unit](https://ars.els-cdn.com/content/image/1-s2.0-B9780444534859000015-f01-01-9780444534859.jpg)
+<img src="https://ars.els-cdn.com/content/image/1-s2.0-B9780444534859000015-f01-01-9780444534859.jpg" width=50% height=50%><img src="https://prod-images-static.radiopaedia.org/images/52608436/ffb5a7e3ebb12255dec689e924ddbd_jumbo.jpeg" width=50% height=50%>
 
-![handsfield séma](https://prod-images-static.radiopaedia.org/images/52608436/ffb5a7e3ebb12255dec689e924ddbd_jumbo.jpeg)
+Kiszámolod az adott térrész sugárgyengítési értékét és azt hozzárendelem egy szürke képhez.
 
-
-Kiszámolod az adott térrész sugárggyengítési értékét és azt hozzárendelem egy szürke képhez.
-
-- lineáris tomográfia - ez a tomográfia legalapvetőbb formája
-- poli tomográfia - geometriks mozgásokkal képalkotás
-- zonográfia - ez a lineáris tomográfia változata
+[Tomográfiák](https://hu.wikipedia.org/wiki/Orvosi_k%C3%A9palkot%C3%A1s#Tomogr%C3%A1fia): 
+- lineáris tomográfia 
+  - ez a tomográfia legalapvetőbb formája
+  - *A páciens felett A pontból B pontba mozog a röntgensugarakat kibocsátó cső, míg a röntgenfilmet tartalmazó másik egység a páciens alatt mozog szimultán módon B pontból A-ba. Az alátámasztási pont vagy forgáspont az érdeklődésünknek megfelelő területhez van beállítva. Ily módon a gyújtóponti sík felett és alatt lévő pontok elmosódottak, akárcsak akkor, amikor a kamera pásztázásakor a háttér elmosódik.* ***EZ NEM CT***
+- poli tomográfia 
+  - geometriks mozgásokkal képalkotás
+  - *ez egy bonyolultabb formája volt a tomográfiának. Ezzel a technikával képesek voltak számos geometrikus mozgást programozni, mint például a ciklikus, a 8-as alakzatú vagy az elliptikus mozgást.* ***EZ SEM CT***
+- zonográfia 
+  - ez a lineáris tomográfia változata
+  - *Ez a lineáris tomográfia egy változata, ahol a mozgás egy meghatározott ívét használják. Ezt az eljárást még mindig alkalmazzák néhány helyen, hogy láthatóvá tegyék a vesét egy intravénás urogram közben* ***EZ SEM CT***
 
 A tomogramm egy sugárgyengítési együtthatóval csinál egy képet, a sok képből létrehoz egy 3D objektumot szeletenként.
 
@@ -194,10 +201,14 @@ Röntgennél a röntgencsőből a sugárkapun keresztül lépnek ki a sugarak ah
 - számítógép ami menti az adatokat és összeállíŧja a képet
 
 ### Röntgen vs CT
-| röntgen        | CT           |
-| ------------- |:-------------:|
-|       | rosszabb térbeli felbontás, lényegesen jobb kontrasztfelbontás |
+- https://www.hopkinsmedicine.org/health/treatment-tests-and-therapies/ct-vs-mri-vs-xray
 
+| röntgen       | CT           |
+| ------------- |-------------|
+| rosszabb térbeli felbontás      | lényegesen jobb kontrasztfelbontás |
+| csont törés kimutatása, csontritkulás | vérrögök, törések, szervi károsodások | 
+| gyorsabb | lassabb mint a röntgen de még mindig elégy gyors, hogy sürgősségi eljáráshoz használják |
+| - | nagyobb sugárterhelés mivel több kép készül |
 
 Képminőség:
 - fantomokkal mérhető, hogy jól van-e bekalibrálva, térbeli speciális fantommal mérik
@@ -207,19 +218,27 @@ Képminőség:
   - a páciens méretétől, mert változik a fókuszpont
 
 #### CT generációk
-![egyben](https://www.researchgate.net/profile/Emanuele-Mikhaeil/publication/343193759/figure/fig1/AS:916910753476608@1595619967129/Generations-of-CT-scanners-6.png)
+![https://howradiologyworks.com/ctgenerations/](https://cdn.shortpixel.ai/spai/w_800+q_lossy+ret_img+to_webp/https://howradiologyworks.com/wp-content/uploads/2020/06/GenerationsOfCTScanning.jpg)
 
 > minőségi vizsonyokról ad visszacsatolást
 
 >**1. gen CT**
 >
-> csak két párhuzamos röntgen detektor, végigszkennelte, arrépp ment
+> - csak két párhuzamos röntgen detektor, végigszkennelte, arrépp ment
+> - a legelső demonál a beteg forgott, nem a gép körülötte
+> - lassú volt
+> - csak fej scan
 > 
-> ![1st gen ct](http://www.impactscan.org/slides/impactcourse/basic_principles_of_ct/img24.gif)
+> <img src="http://www.impactscan.org/slides/impactcourse/basic_principles_of_ct/img24.gif" width=50% height=50% ><img src="https://cdn.shortpixel.ai/spai/w_1200+q_lossy+ret_img+to_webp/https://howradiologyworks.com/wp-content/uploads/2019/07/ct_gen_first_gen_bench-1.gif
+" width=50% height=50% alt="https://howradiologyworks.com/ctgenerations/">
+> 
 
 > **2. gen CT**
 > 
-> 30 detektor, 600 sugár x 540 négyzet, 18 szelet
+> - 30 detektor, 600 sugár x 540 négyzet, 18 szelet
+> - gyorsabb, kb 2 perc 1 scan
+> ![gen2](https://cdn.shortpixel.ai/spai/w_1200+q_lossy+ret_img+to_webp/https://howradiologyworks.com/wp-content/uploads/2019/07/ct_gen_second_gen_2nd.gif)
+
 
 > **3. gen CT**
 >
@@ -229,6 +248,8 @@ Képminőség:
 > - a sugárforrás és a adetektorok is forognak
 > 
 > ![3th gen ct](http://www.impactscan.org/slides/impactcourse/basic_principles_of_ct/img26.gif)
+>
+> ![](https://cdn.shortpixel.ai/spai/w_800+q_lossy+ret_img+to_webp/https://howradiologyworks.com/wp-content/uploads/2019/07/parallelBeam_fanBeam_coneBeam_800_1600-1.jpg)
 
 > **4. gen CT**
 > 
@@ -237,6 +258,14 @@ Képminőség:
 > - csak a sugárforrás forog, detektorokkal rajtuk körbe
 >
 > ![4th gen ct](http://www.impactscan.org/slides/impactcourse/basic_principles_of_ct/img27.gif)
+
+> **5. gen CT**
+>
+> - a forrás és a szenzorok si helyben maradnak, csak az elektron nyaláb mozog mint a régi TV-kben
+> - nagyon gyors, 17 ms
+> - alkalmazható érrendszeri vizsgálatokhoz is
+> 
+> ![mindne fix, csak a beam mozog mint egy katódos TVben](https://cdn.shortpixel.ai/spai/w_1200+q_lossy+ret_img+to_webp/https://howradiologyworks.com/wp-content/uploads/2019/07/ct_gen_fifth_gen.gif)
 
 ## CTA (computed tomography angiography)
 CT amivel ereket figylenek meg.
