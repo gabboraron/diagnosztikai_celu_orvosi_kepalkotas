@@ -344,17 +344,22 @@ röviden: https://www.youtube.com/watch?v=rJjHjnzmvDI
 mobil MRI készülék https://hyperfine.io/
 
 # PET
-> Pozitron emisszós tomográfia
+- https://egeszsegvonal.gov.hu/p-q/898-pet-vizsgalat.html
+- https://www.hopkinsmedicine.org/health/treatment-tests-and-therapies/positron-emission-tomography-pet
+
+> Pozitron emisszós tomográfia - nukleáris medicína
 >
 > Mennyiségi viszonyokat ad meg, mennyi van az adott szövetből.
 >
-> Egy sugárzó anyagot adunk be amit mérünk és a mérések alapján készítünk képet, ezzel folyamatokat lehet monitorizálni, keringési problémát, agyi, vagy daganatos jelenségeket figyelünk.
+> Egy sugárzó anyagot adunk be amit mérünk és a mérések alapján készítünk képet, ezzel folyamatokat lehet monitorizálni, keringési problémát, agyi, vagy daganatos jelenségeket figyelünk, folyamatokat vizsgálhatunk közel valós időben.
 > 
 > ~ 11mSv egység
 > 
-> Ha az alanyt egy csőszeletben helyezzük el akkor a mérés közben a a kilövelő beta részécskéket egy szenzoron érzékeljük, amikor beérkezett megnézzük, hogy az átelmmeben levő oldalon az átmérő fénysebeségel való átfutási idejével megegyező időn belül lesz-e becsapódás, ha lesz akkor tudunk képet készíteni, 2D szeletben.
+> Ha az alanyt egy csőszeletben helyezzük el akkor a mérés közben a kilövelő beta részécskéket egy szenzoron érzékeljük, amikor beérkezett megnézzük, hogy az átelmmeben levő oldalon az átmérő fénysebeségel való átfutási idejével megegyező időn belül lesz-e becsapódás, ha lesz akkor tudunk képet készíteni, 2D szeletben, mivel a time of flightot visszaszámoljuk a két átellenben levő szenzorból, és ismerjük a részecske sebességét és a becsapódások közti időkülönbséget így a távolságot is megkaphatjuk. Ez a [time of flight](https://info.blockimaging.com/what-is-time-of-flight-pet-scanning) . A rögzített kép egy hamis színkép, hőtérkép szerű eredményt ad.
 >
 > ![](https://www.researchgate.net/publication/337325700/figure/fig1/AS:826576459530243@1574082593894/The-basic-principle-of-a-positron-emission-tomography-PET-system-A-PET-detector-ring.png)![](https://www.researchgate.net/publication/342053802/figure/fig1/AS:902008584294400@1592067013365/Positron-Emission-Tomography-PET-imaging-a-neutron-deficient-radioisotope-positron.png)
+> 
+> *A daganatos sejtek energiaigénye jóval meghaladja a normál sejtekét, így azok cukorból is többet fogyasztanak. Mivel a vizsgálat során felhasznált izotóp speciális cukormolekula, nagyobb koncentrációban lesz megfigyelhető a daganatos területen. A szívvizsgálat során ezzel szemben kimutathatók azok a területek, ahol valamilyen oknál fogva éppen csökkent a sejtek anyagcseréje, ami arra utalhat, hogy az érintett terület károsodott.*
 >
 > - carbon11
 > - nitrogén 13
@@ -366,23 +371,54 @@ mobil MRI készülék https://hyperfine.io/
 > 
 > ![](https://image.slidesharecdn.com/earlyadwebinarlandau-121130144021-phpapp02/95/early-alzheimers-disease-webinarlandau-7-638.jpg?cb=1354286480)
 > 
-> SUV - szöveti uni
-> 
+> kombinálhható:
+> - CT
+> - MRI
+
+
 > SPECT - single photoemission PET  
+> - [PET vs SPECT](https://www.youtube.com/watch?v=_NSyAEi12M0)
+> - gamma részecskét használ
+> - https://www.nature.com/articles/nrclinonc.2012.188
 > 
+> ![](https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fnrclinonc.2012.188/MediaObjects/41571_2012_Article_BFnrclinonc2012188_Fig1_HTML.jpg)
+
+
 > ![](http://www.eventideib.polimi.it/wp-content/uploads/2019/05/PastedGraphic-1-730x410.png)![](https://ars.els-cdn.com/content/image/1-s2.0-S1120179715010492-ejmp619-fig-0001.jpg)
 
+- https://www.youtube.com/watch?v=Bgkta3D1TfA
+- https://www.youtube.com/watch?v=Bmj30dBWelE
+
+
+### A PET-vizsgálat nem kívánt hatásai
+*A vizsgálat során nagyon ritkán a beadott izotóp hatására túlérzékenységi reakció alakulhat ki. Az ilyen jellegű allergiás reakciók ellátására azonban a vizsgálatot végző intézmény fel van készülve. Bár a vizsgálat során a sugárzás mértéke csekély, az mégis beavatkozhat a magzat fejlődésébe, így terhesség során a PET-vizsgálat általában ellenjavallt*
 
 # OCT
+- https://repo.lib.semmelweis.hu/bitstream/handle/123456789/122/schneidermiklos_DOIs.pdf?sequence=4
+- http://titan.physx.u-szeged.hu/tamop411c/public_html/L%C3%A9zerek%20az%20orvostudom%C3%A1nyban/841_az_optikai_koherencia_tomogrfia.html
+
 ![OCT VS MRI VS CT](http://obel.ee.uwa.edu.au/wp-content/uploads/2015/01/Fig_3_OCTcomparison.png)
+
+- https://www.youtube.com/watch?v=HJnNJIUPm4s
+- https://www.youtube.com/watch?v=FKzIH7o8zTA
+- https://www.youtube.com/watch?v=dlkXHWUhpV4
 
 használt:
 - bőrgyógyászatban
 - megtudom mondani melyik irányban áramlik a vér
 
-> fény alapú koherens tomográfia
+> Fény alapú koherens tomográfia, *tulajdonképpen az ultrahangos képalkotás optikai analógiájának tekinthető, azonban annál akár két nagyságrenddel jobb.*
 > 
-> Michlson féle interfenercia mérő az interfeernciát méri, egy visszaveréssel tud dolgozni ami alapján távolságokat lehet látni
+> Az OCT legegyszerűbb változatának működési elve megegyezik a fehér fényű interferencia mikroszkópéval, vagy éppen a fehérfényű optikai profilométerével. A készülék alapját egy Michelson-féle interferométer képezi: egy fényforrásból kiinduló nyalábot egy féligáteresztő tükörrel ketté osztanak, majd egy bizonyos távolság megtétele után egy-egy tükörről visszaverődve a nyalábosztó újból egyesíti és egy detektorra irányítja őket.
+> 
+> Három esetl lehetséges:
+>  - a vizsgált és a refernecia hullámok épp erősítik egymást
+>  - a vizsgált és a refernecia hullámok épp gyengítik egymást
+>  - a vizsgált és a refernecia hullámok épp egymás után csapódnak be, különbözik a hullámhosszuk
+>  
+>  Ezeket egy minimális hullámhossz különbséggel lehet kijavítani
+> 
+> ![Michelson interferometer](http://titan.physx.u-szeged.hu/tamop411c/public_html/L%C3%A9zerek%20az%20orvostudom%C3%A1nyban/8.4.1_abra.jpg)
 >
 > SLED/LED - 800--1300-1550 nm hullámhosszal
 > 
@@ -402,6 +438,8 @@ használt:
 > ![OCT](https://marvel-b1-cdn.bc0a.com/f00000000038905/www.aao.org/full/image.axd?id=d176ad37-e1c1-4090-a7be-fc863dc43756&t=636737514114430000)
 > 
 > A visszaverődés minden rétegből egy-egy jelet küld vissza, aminek a végén egy summát kapok. A referencia tükör mozgatható, és olyan távolságba tesszük amivel pont azt a hullámhosszt kapjuk meg amelyik az általunk visgált mértékből érkezik. A piezo ciklikus rezgéséből egy időrés keletkezik amiben mozgatjuk a tükröt és ebből fakad az idő alapúsága az eljárásnak.
+> 
+> *Ha a két nyaláb a pontosan ugyanakkora utat tett meg a detektorig, akkor fázisban vannak, konstruktív interferencia jön létre. Ha valamely tükröt mozgatjuk, akkor a Δl útkülönbségnek megfelelően a két nyaláb hol erősíteni, hol pedig gyengíteni fogja egymást, a detektor a tükör helyzetének függvényében egy periodikus jelet fog mérni. A jel modulációja annál nagyobb, minél kisebb a különbség a két nyaláb intenzitása között.*
 >
 > ***A scan***
 > - *x* tengely távolság
@@ -457,6 +495,8 @@ https://piurimaging.com/
 használata:
 - daganatok pontos volumen mérse, stb
 - transrectális, transvaginalis ultrahang
+
+[Több lentebb](https://github.com/gabboraron/diagnosztikai_celu_orvosi_kepalkotas#ixultrahangos-k%C3%A9palkot%C3%A1s)
 
 ## Optika, mikroszkópia
 > Képalkotás, optikai tartományban, mik a lencse hibák, mivel korrigálhatóak, stb.
@@ -643,13 +683,20 @@ elektrooptikai mintavételező
 - belemegy az anyagba
 
 ## UWB radar alapú képalkotás
+- https://www.radartutorial.eu/02.basics/UWB%20Radar.en.html
+- https://en.wikipedia.org/wiki/Ultra-wideband
+
+kis hatótávolságú radar technológia, nagy rádió spektrumon. Pontos helymeghatározásra és követésre alkalmas.
+
 - kis impulzusok
 - rövid dieig
 - nagy energiát ad át
 - camero tech 
 
+![](https://www.mdpi.com/sensors/sensors-21-02488/article_deploy/html/images/sensors-21-02488-g001.png)
+
 ## spektroszkópia
-visszavert féyn alapján képalkotás
+visszavert fény alapján képalkotás
 
 ## képi adatok tárolása, menedzselése
 > képformátumok:
@@ -865,24 +912,85 @@ visszavert féyn alapján képalkotás
 >> - tartósan 89% alatt sejt károsodás
 
 ### VII.CTI - Computerised Thermal Imaging
-1. A CTI alapú képalkotás
-2. A CTI vizsgálat előnyei, hátrányai
-3. A CTI alapú vizsgálatok típusai
-4. A főbb hőkamera típusok/általános belső működésük 
-5. A CTI alapú képalkotás problémái
+- https://www.muszeroldal.hu/measurenotes/termografiaorvosi.html
+- https://pubmed.ncbi.nlm.nih.gov/2600750/
+- https://www.imaginis.com/thermography-cti/thermography-computerized-thermal-imaging-2?r
+
+#### 1. A CTI alapú képalkotás
+A termográfia (hőtérképezés) egy olyan funkcionális vizsgáló eljárás, amelynek során az emberi test hőmérsékletét mérjük infrakamerával egy erre a célra kifejlesztett számítógépes szoftver segítségével.
+
+A CTI a legmodernebb orvostechnikai vizsgáló módszerek egyike, mely húsz év nemzetközi kutató munka eredményeként lehetővé teszi a szervezet kóros működéseinek korai felismerését. 
+
+Az emberi test többek között infravörös hullámokat bocsát ki magából. A különböző helyeken fellépő minimális hőenergetikai különbségek termokamerával történő mérésével a szervezetben zajló kóros folyamatok korai felismerése válik lehetővé.
+
+A gyulladásos szövetek, az aktív növekedési fázisban lévő daganatos sejtek legtöbbjének hőkibocsátása fokozott, míg a sorvadt, heges, alulműködő sejtek hőtermelése csökkent. Azon daganatos sejtek, amelyek hőtermelése nem magasabb a normál sejtekénél, a fokozott anyagcsereigény miatt megnövekedett számú erek (ún. "perivascularisatio") miatt mutathat emelkedett hőleadást.
+
+![https://www.researchgate.net/figure/Schematic-diagram-of-infrared-thermography-camera_fig1_264185886](https://www.researchgate.net/profile/Young-Jo-14/publication/264185886/figure/fig1/AS:327936021417992@1455197448941/Schematic-diagram-of-infrared-thermography-camera.png)
+
+#### 2. A CTI vizsgálat előnyei, hátrányai
+A CTI elősegíti a góc felismerését. Érzékenysége miatt a kóros eltéréseket korán jelzi.
+A teljesség nélkül, a következő betegségek lehetnek góceredetűek:
+- szívizomgyulladás
+- rheumás láz
+- az izületek rheumás gyulladása
+- egyes vesegyulladások
+- kóros hajhullás
+- egyes szemgyulladások
+- tartós hőemelkedés
+- egyes ideggyulladások
+- visszatérő érgyulladások
+- krónikus kiütések bizonyos típusai
+- az úgynevezett eruptív psoriasis
+
+
+Napjaink egyik leggyakoribb betegsége a különböző perifériás keringési eltérések. Egy bizonyos kor után szinte nincs olyan ember, akinek ne lenne visszértágulata. Ez a vénás keringés leggyakoribb zavara, amikor is leggyakrabban az alsó végtagon a véna fala kitágul, egyenetlen lefutásúvá válik és a vénákban lévő billentyűk elégtelenül működnek. A két lábon járás átalakította a test szerkezetét, de a vénabillentyűk nem rendeződtek át. Fekvő helyzetben a boka környékén a vénás nyomás kb.11 Hgmm. Járás nélküli állás közben a vénás nyomás kb. 100 Hgmm-re nő. Álló helyzetben a vénás vér áramlása a visszerekben megfordulhat. A helyi keringési feltételek elősegítik ezen visszerek begyulladását.  A CTI elősegíti ezen kóros folyamatok korai felismerését, így lehetővé válik megfelelő életmódváltással, kezelésekkel a keringési zavarok megszűntetése, prolongálása.
+
+#### 3. A CTI alapú vizsgálatok típusai
+A 80-as években az Amerikai Védelmi Minisztérium titkos, nagyléptékű megbízást adott a hűtés nélküli infravörös érzékelő technológia kifejlesztésére. A hadsereg olyan érzékelőt akart, amelynek nagyon rövid a mérési ideje.
+
+Az infravörös módszerrel dolgozó eljárások lényege, hogy minden anyag energiát bocsát ki elektromágneses sugárzás formájában. Az abszolút nulla hőmérséklet -273,15fok Celsius. Az e fölötti hőmérsékletű tárgyak, szövetek által kibocsátott sugárzást a hőkamera méri, hőképpé alakítja át. Az infravörös sugárzás tartománya 0,75 és 100 mikron között van. Az infravörös kamera segítségével a láthatatlan hőenergia válik láthatóvá. 
+
+1992-ben az Amerikai Kormány engedélyezte az infravörös technológia kereskedelmét, de az ellenőrzése alatt tartja a technológiát.
+
+#### 4. A főbb hőkamera típusok/általános belső működésük 
+- https://www.findlight.net/blog/everything-you-should-know-about-thermal-imaging-cameras/
+- https://pim-kft.hu/szakmai-segitseg/publikaciok/hokamera-alaptipusok/
+
+típusok:
+- Letapogató hőkamerák - tükröt mozgat egy stabil szenzorral, az OCT-hez hasonlóan, csak refenrecia nélkül.
+- Mátrixdetektoros hőkamerák - hasonlóak a hagyományos cmos kamerákhoz.
+
+<img src="https://pim-kft.hu/wp-content/uploads/2016/02/szkenner.jpg" width=50% height=50%><img src="https://pim-kft.hu/wp-content/uploads/2016/02/matixos.jpg" width=50% height=50%>
+
+
+#### 5. A CTI alapú képalkotás problémái
+- Nem váltja ki az orvoslásban hagyományos diagnosztikai vizsgálatokat, azonban, mint funkcionális vizsgálat, új területet nyit a kóros folyamatok felismerésében, a kezelések hatékonyságának ellenőrzésében. 
+- nem reprodukálható
+- befolyásolják a körülmények
+- befolyásolják a vizsgált alany közelmúlt beli cselekvései
 
 ### VIII.NIRS - Near-infrared spectroscopy
+- https://en.wikipedia.org/wiki/Near-infrared_spectroscopy
+- https://www.youtube.com/watch?v=ZUghUo-0p6E
+- https://www.frontiersin.org/articles/10.3389/fped.2019.00560/full
+- https://www.frontiersin.org/articles/10.3389/fnins.2020.00724/full
+
 #### 1. A NIRS alapú képalkotás
 > - Agyi oxigenizáció és hemodinamika monitorozása
 > - Közeli infra abszorpció [O2Hb] és Hb [HHb]
 > - Helyi  és agyi O2 szaturáció: rScO2
+> - szövetek oxigéntetlítettsége, esetleg kisebb tumor észlelése
+
+Különböző lézerdiódák különböző hullámhosszon világítják meg a szövetet optikai kábelekkel, foto detektorokkal érzékelünk a túloldalon, és a jelet kielemezhetjük. 
+
+![](https://www.frontiersin.org/files/Articles/540710/fnins-14-00724-HTML/image_m/fnins-14-00724-g002.jpg)
 
 #### 2. A NIRS vizsgálat előnyei, hátrányai
 > ##### előnye:
 > - Újszülötteknél jól használható
 >
 > ##### hátránya:
-> -  
+> - nem részletgazdag, az utófeldolgozás nélkül nem sokat jelentenek az adatok, nem hatol túl mélyre  
 
 #### 3. A NIRS alapú vizsgálatok típusai
 > ![NIRS](https://www.researchgate.net/publication/341805968/figure/fig1/AS:899134651392001@1591381814410/ERP-and-near-infrared-spectroscopy-NIRS-measurement-system-EEG-was-measured-at-T3-and.png)
@@ -895,7 +1003,7 @@ visszavert féyn alapján képalkotás
 > https://www.youtube.com/watch?v=m6zpNSoQTV8
 
 #### 5. A NIRS problémái
-> 
+> nem túl részletgazdag
 
 ### IX.Ultrahangos képalkotás
 #### 1. Az ultrahang  berendezés részei, elrendezése, működése
