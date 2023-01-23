@@ -648,6 +648,8 @@ egy spekt felvétel 25-40 percig tart a valóságban
 > felbontás: ~ 1nm -> molekulák szintje
 
 ## Digitális mikroszkópia III.
+- https://docplayer.hu/21681267-Feny-es-fluoreszcens-mikroszkopia-szuperrezolucios-mikroszkopia.html
+
 > Képalkotás érzékelt jelek feldolgozásával alkaítunk ki látható digitális képeket
 >
 > képfeldolgozás a kialakított kép sajátosságait módosítás szűrés keresés elemzés
