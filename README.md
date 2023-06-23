@@ -502,10 +502,14 @@ használata:
 > Képalkotás, optikai tartományban, mik a lencse hibák, mivel korrigálhatóak, stb.
 >
 > Megvilágítás, milyen a mikroszkóp beli megvilágítás, milyen előfeldolgozás lehetséges, festés, dlc, hoffmann, fázis, sötét látóteres mikroszkóp.
+> 
+
+több: https://www.ibiology.org/online-biology-courses/microscopy-series/
 
 
 ### Mikroszkóp felépítése
 ![mikroszkóp szerkezete](http://clipart-library.com/images/gie5864eT.jpg)
+
 1. fényforrás
 2. fénnyaláb
 3. tükör
