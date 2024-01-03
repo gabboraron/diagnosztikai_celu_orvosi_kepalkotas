@@ -504,7 +504,8 @@ használata:
 > Megvilágítás, milyen a mikroszkóp beli megvilágítás, milyen előfeldolgozás lehetséges, festés, dlc, hoffmann, fázis, sötét látóteres mikroszkóp.
 > 
 
-több: https://www.ibiology.org/online-biology-courses/microscopy-series/
+**több: [https://www.ibiology.org/online-biology-courses/microscopy-series/](https://www.ibiology.org/online-biology-courses/microscopy-series/microscopy-series-table-contents/)**
+
 
 
 ### Mikroszkóp felépítése
